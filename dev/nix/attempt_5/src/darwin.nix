@@ -10,17 +10,13 @@
         autoUpdate = true;
         cleanup = "zap"; # Removes all unmanaged packages
       };
-      taps = [
-        "homebrew/cask"
-        "homebrew/cask-versions"
-      ];
       brews = [
         # CLI tools through homebrew if needed
       ];
       casks = [
         "slack"
         "jetbrains-toolbox"
-        "pycharm-ce"  # or "pycharm" for professional
+        "pycharm"
         "cursor"
       ];
     };
