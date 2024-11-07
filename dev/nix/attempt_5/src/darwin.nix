@@ -11,6 +11,7 @@
         cleanup = "zap"; # Removes all unmanaged packages
       };
       brews = [
+        "poetry"
         # CLI tools through homebrew if needed
       ];
       casks = [
@@ -18,6 +19,12 @@
         "jetbrains-toolbox"
         "pycharm"
         "cursor"
+        "warp"
+        "raycast"
+        "telegram"
+        "docker"
+        "bartender"
+        "rectangle"
       ];
     };
 
