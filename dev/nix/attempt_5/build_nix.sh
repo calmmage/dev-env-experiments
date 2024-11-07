@@ -7,6 +7,6 @@ echo "🔄 Updating flake..."
 nix flake update
 
 echo "🛠 Rebuilding system..."
-darwin-rebuild switch --flake .#Petrs-MacBook-Pro.local
+darwin-rebuild switch --flake .#Petrs-MacBook-Pro
 
 echo "✅ System rebuild complete!"

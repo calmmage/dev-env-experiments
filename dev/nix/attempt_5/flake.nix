@@ -10,7 +10,7 @@
   };
 
   outputs = { self, darwin, nixpkgs, home-manager }: {
-    darwinConfigurations."Petrs-MacBook-Pro.local" = darwin.lib.darwinSystem {
+    darwinConfigurations.Petrs-MacBook-Pro = darwin.lib.darwinSystem {
       system = "aarch64-darwin";
       modules = [ 
         ./src/darwin.nix
