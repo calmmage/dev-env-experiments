@@ -6,9 +6,9 @@
   };
 
   networking = {
-    computerName = "bflhair";
-    hostName = "bflhair";
-    localHostName = "bflhair";
+    computerName = "Petrs-MacBook-Pro";
+    hostName = "Petrs-MacBook-Pro";
+    localHostName = "Petrs-MacBook-Pro.local";
   };
 
   home-manager.users.petr = { pkgs, lib, ... }: {
@@ -17,8 +17,8 @@
       ollama
     ];
 
-    # Machine-specific VSCode extensions (if needed)
-    programs.vscode = {
+    # Machine-specific Cursor extensions (if needed)
+    programs.cursor = {
       enable = true;
       userSettings = {
         "aws.telemetry" = false;
@@ -37,9 +37,9 @@
         "[nix]" = { "editor.defaultFormatter" = "brettm12345.nixfmt-vscode"; };
         "github.copilot.editor.enableAutoCompletions" = false;
         "dev.containers.dockerPath" =
-          "/etc/profiles/per-user/lucho.hristov/bin/docker";
+          "/etc/profiles/per-user/petr/bin/docker";
         "direnv.path.executable" =
-          "/etc/profiles/per-user/lucho.hristov/bin/direnv";
+          "/etc/profiles/per-user/petr/bin/direnv";
         "css.enabledLanguages" = "nunjucks html";
         "amazonQ" = {
           "shareContentWithAWS" = false;
@@ -56,17 +56,7 @@
     };
 
     programs.git.extraConfig = {
-      user.email = lib.mkForce "lucho@blankfactor.com";
+      user.email = lib.mkForce "petr@superlinear.com";
     };
-  };
-
-  homebrew = {
-    enable = true;
-    casks = [
-      # Your casks
-    ];
-    brews = [
-      # Your brews
-    ];
   };
 }

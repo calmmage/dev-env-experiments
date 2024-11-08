@@ -48,7 +48,7 @@
       enable = true;
       extraConfig = {
         init.defaultBranch = "master";
-        user.name = "Lucho Hristov";
+        user.name = "Petr Lavrov";
         merge.tool = "opendiff";
         diff.tool = "opendiff";
         difftool.prompt = false;

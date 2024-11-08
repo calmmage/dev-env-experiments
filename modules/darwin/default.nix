@@ -65,34 +65,38 @@
     };
     masApps = { };
     brews = [
-      # CLI tools through homebrew if needed
       "poetry"
       "gh"
       "ripgrep"
+      "sonar-scanner"
     ];
 
     casks = [
-      "raycast"
-      "sourcetree"
-      "google-chrome"
-      "dropbox"
-      "adobe-creative-cloud"
-      "setapp"
-      "mitmproxy"
-      "slack"
+      # Development
+      "docker"
       "jetbrains-toolbox"
       "pycharm"
-      "cursor"
+      "sourcetree"
       "warp"
-      "raycast"
+      "mitmproxy"
+
+      # Browsers & Communication
+      "google-chrome"
+      "slack"
       "telegram"
-      "docker"
-      "bartender"
+
+      # Productivity & Utils
+      "raycast"
       "rectangle"
+      "bartender"
+      "dropbox"
+      "setapp"
       "obsidian"
       "notion"
       "chatgpt"
+
+      # Creative
+      "adobe-creative-cloud"
     ];
-    brews = [ "sonar-scanner" ];
   };
 }
