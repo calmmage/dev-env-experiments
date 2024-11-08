@@ -132,4 +132,20 @@
       '';
     };
   };
+
+  # Add Finder settings
+  # home.file.".finder-settings" = {
+  #   text = ''
+  #     # Set Finder preferences
+  #     defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+  #     defaults write com.apple.finder ShowPathbar -bool true
+  #     defaults write com.apple.finder ShowStatusBar -bool true
+  #   '';
+  # };
+
+  # Add dock configuration
+  home.activation.dock = lib.hm.dag.entryAfter ["writeBoundary"] ''
+    # Configure dock apps
+    ${pkgs.dockutil}/bin/dockutil --add "/Applications/Raycast.app" --no-restart
+  '';
 }

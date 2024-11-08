@@ -109,11 +109,12 @@ a) do some quick solutions right now that I need
 b) plan what to add later
 
 a)
-- aliases
-- zshrc
+- [x] aliases
+- [x]zshrc
 
 b) 
 launchd -> jobs
-raycast
-python startup
-python tools
+raycast -> extensions, scripts
+python startup (for jupyter)
+python tools (from my devenv repo)
+run with poetry

@@ -38,6 +38,15 @@
         autohide = true;
         largesize = 128;
         magnification = true;
+        # tilesize = 36;
+        expose-group-apps = true;
+        mru-spaces = false; # disable reordering spaces automatically based on recent usage (I hate them chaotically reordering)
+        minimize-to-application = true; # minimize to application instead separate windows
+      };
+      WindowManager = {
+        EnableTopTilingByEdgeDrag = false;
+        EnableTilingByEdgeDrag = false;
+        EnableTilingOptionAccelerator = false;
       };
     };
     activationScripts.postActivation.text = ''
