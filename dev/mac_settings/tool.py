@@ -24,6 +24,12 @@ def run_clean_diff(diff_file, output_file):
     subprocess.run(['python3', str(clean_script), '--diff_file', str(diff_file),
                    '-o', str(output_file)], check=True)
 
+def run_categorize_changes(cleaned_diff_file, output_file):
+    """Run categorize_changes.py to organize the changes"""
+    categorize_script = src_dir / 'categorize_changes.py'
+    subprocess.run(['python3', str(categorize_script), '--input', str(cleaned_diff_file),
+                   '-o', str(output_file)], check=True)
+
 def main():
     parser = argparse.ArgumentParser(description='Tool for tracking macOS settings changes')
     parser.add_argument('--keep-full-diff', action='store_true',
@@ -37,6 +43,7 @@ def main():
     reference_file = output_dir / 'reference.json'
     diff_file = output_dir / 'settings_diff.json'
     cleaned_diff_file = output_dir / 'settings_diff_cleaned.json'
+    categorized_diff_file = output_dir / 'settings_diff_categorized.json'
 
     if not reference_file.exists():
         print("\nNo reference.json found. Generating initial settings snapshot...")
@@ -54,13 +61,16 @@ def main():
     print("Cleaning up the diff...")
     run_clean_diff(diff_file, cleaned_diff_file)
 
-    # Read and display the cleaned diff
-    with open(cleaned_diff_file) as f:
-        cleaned_diff = json.load(f)
+    print("Categorizing changes...")
+    run_categorize_changes(cleaned_diff_file, categorized_diff_file)
 
-    if cleaned_diff:
+    # Read and display the categorized diff
+    with open(categorized_diff_file) as f:
+        categorized_diff = json.load(f)
+
+    if categorized_diff['interesting'] or categorized_diff['unsorted']:
         print("\nDetected settings changes:")
-        print(json.dumps(cleaned_diff, indent=2))
+        print(json.dumps(categorized_diff, indent=2))
     else:
         print("\nNo significant settings changes detected")
 
