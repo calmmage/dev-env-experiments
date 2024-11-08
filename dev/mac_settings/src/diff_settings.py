@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import json
-import argparse
 import subprocess
 import tempfile
 import os
@@ -87,19 +86,10 @@ def deep_diff(d1, d2):
     
     return diff
 
-def main():
-    parser = argparse.ArgumentParser(description='Compare macOS settings between two states')
-    parser.add_argument('before_file', default=os.path.join(os.path.dirname(__file__), 'reference.json'), help='JSON file containing the before state')
-    parser.add_argument('-o', '--output', 
-                      default='settings_diff.json',
-                      help='Output JSON file for the diff (default: settings_diff.json)')
-    parser.add_argument('-v', '--verbose',
-                      action='store_true',
-                      help='Print verbose processing information')
-    args = parser.parse_args()
-
+def diff_settings(before_file, output_file, verbose=False):
+    """Compare macOS settings between two states"""
     # Load the before state
-    with open(args.before_file, 'r') as f:
+    with open(before_file, 'r') as f:
         before_state = json.load(f)
 
     # Get current state using dump_settings.py
@@ -108,28 +98,43 @@ def main():
         
     try:
         # Run dump_settings.py to get current state
-        subprocess.run(['python3', 'dump_settings.py', '-o', tmp_path], check=True)
+        script_dir = Path(__file__).parent
+        dump_script = script_dir / 'dump_settings.py'
+        subprocess.run(['python3', str(dump_script), '-o', str(tmp_path)], check=True)
         
         # Load current state
         with open(tmp_path, 'r') as f:
             current_state = json.load(f)
             
         # Compare states
-        if args.verbose:
+        if verbose:
             print("Comparing states...")
             
         differences = deep_diff(before_state, current_state)
         
         # Save differences to file
-        output_path = Path(args.output)
+        output_path = Path(output_file)
         with open(output_path, 'w') as f:
             json.dump(differences, f, indent=2)
             
-        print(f"\nSaved differences to {output_path}")
+        if verbose:
+            print(f"\nSaved differences to {output_path}")
         
     finally:
         # Clean up temporary file
         Path(tmp_path).unlink()
 
 if __name__ == '__main__':
-    main() 
+    import argparse
+    parser = argparse.ArgumentParser(description='Compare macOS settings between two states')
+    parser.add_argument('--before_file', default='output/reference.json',
+                      help='JSON file containing the before state')
+    parser.add_argument('-o', '--output', 
+                      default='output/settings_diff.json',
+                      help='Output JSON file for the diff')
+    parser.add_argument('-v', '--verbose',
+                      action='store_true',
+                      help='Print verbose processing information')
+    args = parser.parse_args()
+    
+    diff_settings(args.before_file, args.output, args.verbose)

@@ -1,0 +1,93 @@
+{
+  "com.apple.AdLib": {
+    "allowIdentifierForAdvertising": {
+      "old": false,
+      "new": true
+    }
+  },
+  "com.apple.AppleMediaServices": {
+    "AMSStorefrontSuffixes": {
+      "com.apple.Music": {
+        "new": " t:musicstore1"
+      }
+    }
+  },
+  "com.apple.WindowManager": {
+    "HasDisplayedShowDesktopEducation": {
+      "new": true
+    }
+  },
+  "com.apple.controlcenter": {
+    "NSStatusItem Visible NowPlaying": {
+      "old": false,
+      "new": true
+    }
+  },
+  "com.apple.dock": {
+    "tilesize": {
+      "old": 67.0,
+      "new": 36.0
+    },
+    "persistent-apps": {
+      "added": [
+        {
+          "tile-data": {
+            "dock-extra": false,
+            "file-type": 41,
+            "file-data": {
+              "_CFURLStringType": 15,
+              "_CFURLString": "file:///Applications/Raycast.app/"
+            },
+            "file-label": "Raycast",
+            "bundle-identifier": "com.raycast.macos",
+            "is-beta": false
+          },
+          "tile-type": "file-tile"
+        }
+      ]
+    },
+    "magnification": {
+      "old": false,
+      "new": true
+    },
+    "largesize": {
+      "old": 16.0
+    }
+  },
+  "com.apple.java.util.prefs": {
+    "/": {
+      "jetbrains/": {
+        "marketplacedownloads_device_id": {
+          "new": "0811242f9af8e9a-63ae-46ef-bb0c-bb43aef9f69a"
+        },
+        "packagechecker_device_id": {
+          "new": "08112428558afe7-b2b5-49d5-8df8-cbb9072fabc0"
+        }
+      }
+    }
+  },
+  "com.apple.systemsettings.extensions": {
+    "state-indexing done": {
+      "new": true
+    }
+  },
+  "jetbrains.jetprofile.asset": {
+    "/jetbrains/jetprofile/asset/": {
+      "pc/": {
+        "stamp": {
+          "old": "1731060751492",
+          "new": "1731075457259"
+        },
+        "period": {
+          "old": "11369201",
+          "new": "15684213"
+        }
+      }
+    }
+  },
+  "com.apple.CharacterPicker": {
+    "new": {
+      "version": 1
+    }
+  }
+}

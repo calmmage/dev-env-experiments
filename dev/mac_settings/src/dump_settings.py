@@ -51,18 +51,8 @@ def export_domain(domain):
         if os.path.exists(tmp_path):
             os.unlink(tmp_path)
 
-def main():
-    import argparse
-
-    parser = argparse.ArgumentParser(description='Export macOS defaults to JSON')
-    parser.add_argument('-o', '--output', 
-                      default='all_defaults.json',
-                      help='Output JSON file path (default: all_defaults.json)')
-    parser.add_argument('-v', '--verbose',
-                      action='store_true',
-                      help='Print verbose processing information')
-    args = parser.parse_args()
-
+def dump_settings(output_file, verbose=False):
+    """Export macOS defaults to JSON file"""
     # Get all domains
     domains = get_domains()
     
@@ -71,18 +61,29 @@ def main():
     
     # Process each domain
     for domain in domains:
-        if args.verbose:
+        if verbose:
             print(f"Processing {domain}...")
         data = export_domain(domain)
         if data is not None:
             result[domain] = data
     
     # Write to JSON file
-    output_path = Path(args.output)
+    output_path = Path(output_file)
     with open(output_path, 'w') as f:
         json.dump(result, f, indent=2, cls=DefaultsEncoder)
     
-    print(f"\nExported defaults to {output_path}")
+    if verbose:
+        print(f"\nExported defaults to {output_path}")
 
 if __name__ == '__main__':
-    main()
+    import argparse
+    parser = argparse.ArgumentParser(description='Export macOS defaults to JSON')
+    parser.add_argument('-o', '--output', 
+                      default='output/all_defaults.json',
+                      help='Output JSON file path')
+    parser.add_argument('-v', '--verbose',
+                      action='store_true',
+                      help='Print verbose processing information')
+    args = parser.parse_args()
+    
+    dump_settings(args.output, args.verbose)
