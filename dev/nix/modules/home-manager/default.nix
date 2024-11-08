@@ -98,7 +98,8 @@
       initExtra = ''
         # Any custom zsh code goes here
         source ~/.p10k.zsh
-        # export DOCKER_HOST='unix://'$HOME'/.colima/default/docker.sock'
+        source ~/.aliases
+        source ~/.zshrc.local
         source ~/.zsh-custom-functions
       '';
 
@@ -119,12 +120,16 @@
     };
     direnv = { enable = true; };
   };
-  home.file.".inputrc".source = ./dotfiles/inputrc;
-  home.file.".zsh-custom-functions" = {
-    text = ''
-      function my_custom_function() {
-        # function code here
-      }
-    '';
+  home.file = {
+    ".inputrc".source = ./dotfiles/inputrc;
+    ".aliases".source = ./dotfiles/aliases;  # Add your aliases file
+    ".zshrc.local".source = ./dotfiles/zshrc;  # Add your zshrc file
+    ".zsh-custom-functions" = {
+      text = ''
+        function my_custom_function() {
+          # function code here
+        }
+      '';
+    };
   };
 }
