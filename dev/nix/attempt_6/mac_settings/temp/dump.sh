@@ -5,8 +5,14 @@
 # Get all domains
 domains=$(defaults domains | tr ',' '\n' | sed 's/^ *//')
 
-# Create an empty JSON object
-echo "{}" > all_defaults.json
+# Check if output path is provided
+if [ $# -eq 0 ]; then
+    echo "Error: Please provide output path as first argument"
+    exit 1
+fi
+
+# Create an empty JSON object at specified path
+echo "{}" > "$1"
 
 # For each domain
 for domain in $domains; do
@@ -17,8 +23,8 @@ echo "Processing $domain..."
     # If the conversion was successful, add it to our main JSON
     if [ -s "temp_$domain.json" ]; then
         # Use jq to merge the files
-        jq --arg domain "$domain" '. + {($domain): input}' all_defaults.json "temp_$domain.json" > "temp_combined.json"
-        mv "temp_combined.json" all_defaults.json
+        jq --arg domain "$domain" '. + {($domain): input}' "$1" "temp_$domain.json" > "temp_combined.json"
+        mv "temp_combined.json" "$1"
     fi
     
     # Clean up temporary file
