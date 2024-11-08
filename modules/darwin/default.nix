@@ -9,7 +9,7 @@
     pathsToLink = [ "/Applications" ];
   };
   nix = {
-    settings = { trusted-users = [ "root" "luchoh" "lucho.hristov" ]; };
+    settings = { trusted-users = [ "root" "petr"]; };
     extraOptions = ''
       experimental-features = nix-command flakes
     '';
@@ -59,7 +59,18 @@
     enable = true;
     caskArgs.no_quarantine = true;
     global.brewfile = true;
+    onActivation = {
+      autoUpdate = true;
+      cleanup = "zap"; # Removes all unmanaged packages
+    };
     masApps = { };
+    brews = [
+      # CLI tools through homebrew if needed
+      "poetry"
+      "gh"
+      "ripgrep"
+    ];
+
     casks = [
       "raycast"
       "sourcetree"
@@ -68,6 +79,19 @@
       "adobe-creative-cloud"
       "setapp"
       "mitmproxy"
+      "slack"
+      "jetbrains-toolbox"
+      "pycharm"
+      "cursor"
+      "warp"
+      "raycast"
+      "telegram"
+      "docker"
+      "bartender"
+      "rectangle"
+      "obsidian"
+      "notion"
+      "chatgpt"
     ];
     brews = [ "sonar-scanner" ];
   };

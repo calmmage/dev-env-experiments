@@ -1,5 +1,5 @@
 {
-  description = "Unified Configuration for NixOS and MacOS";
+  description = "Darwin System Configuration";
 
   nixConfig = {
     extra-substituters = [
@@ -15,6 +15,7 @@
       "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
     ];
   };
+
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixpkgs-unstable";
@@ -38,56 +39,34 @@
       url = "github:homebrew/homebrew-cask";
       flake = false;
     };
-    flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs, nixpkgs-unstable, home-manager, darwin, flake-utils
-    , ... }@inputs:
+  outputs = { self, nixpkgs, nixpkgs-unstable, home-manager, darwin, ... }@inputs:
     let
-      inherit (flake-utils.lib) eachSystemMap;
-      isDarwin = system:
-        (builtins.elem system inputs.nixpkgs.lib.platforms.darwin);
-      homePrefix = system: if isDarwin system then "/Users" else "/home";
-      defaultSystems = [ "aarch64-darwin" "x86_64-darwin" ];
+      system = "aarch64-darwin";
+      username = "petr"; 
 
       overlay-unstable = final: prev: {
         unstable = nixpkgs-unstable.legacyPackages.${prev.system};
-        devenv = nixpkgs-unstable.legacyPackages.${prev.system}.devenv;
-        mysql = nixpkgs-unstable.legacyPackages.${prev.system}.mysql;
       };
-
-      mkDarwinConfig = { system, hostname, username }:
-        darwin.lib.darwinSystem {
-          inherit system;
-          modules = [
-            ({ pkgs, ... }: {
-              nixpkgs.overlays = [ overlay-unstable ];
-              nixpkgs.config.allowUnfree = true;
-              users.users.${username}.home = "/Users/${username}";
-            })
-            ./modules/darwin
-            (./. + "/${hostname}.nix")
-            home-manager.darwinModules.home-manager
-            {
-              home-manager.useGlobalPkgs = true;
-              home-manager.useUserPackages = true;
-              home-manager.users.${username} = import ./modules/home-manager;
-              home-manager.extraSpecialArgs = { inherit hostname; };
-            }
-          ];
-        };
     in {
-      darwinConfigurations = {
-        mbpr1619 = mkDarwinConfig {
-          system = "x86_64-darwin";
-          hostname = "mbpr1619";
-          username = "luchoh";
-        };
-        bflhair = mkDarwinConfig {
-          system = "aarch64-darwin";
-          hostname = "bflhair";
-          username = "lucho.hristov";
-        };
+      darwinConfigurations.default = darwin.lib.darwinSystem {
+        inherit system;
+        modules = [
+          ({ pkgs, ... }: {
+            nixpkgs.overlays = [ overlay-unstable ];
+            nixpkgs.config.allowUnfree = true;
+            users.users.${username}.home = "/Users/${username}";
+          })
+          ./modules/darwin
+          ./configuration.nix
+          home-manager.darwinModules.home-manager
+          {
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+            home-manager.users.${username} = import ./modules/home-manager;
+          }
+        ];
       };
     };
 }

@@ -1,20 +1,25 @@
 { pkgs, lib, ... }:
 
 {
-  # Machine-specific Darwin configuration
+  nix.settings = {
+    trusted-users = [ "root" "petr" ];
+  };
+
   networking = {
     computerName = "bflhair";
     hostName = "bflhair";
     localHostName = "bflhair";
   };
 
-  # Machine-specific home-manager configuration
-  home-manager.users."lucho.hristov" = { pkgs, lib, ... }: {
-    # Add work machine specific packages here
-    home.packages = with pkgs; [ ollama ];
+  home-manager.users.petr = { pkgs, lib, ... }: {
+    home.packages = with pkgs; [
+      # Your desired packages
+      ollama
+    ];
 
     # Machine-specific VSCode extensions (if needed)
     programs.vscode = {
+      enable = true;
       userSettings = {
         "aws.telemetry" = false;
         "sqltools.dependencyManager" = {
@@ -50,18 +55,18 @@
         ];
     };
 
-    # Add any work machine specific configurations here
     programs.git.extraConfig = {
       user.email = lib.mkForce "lucho@blankfactor.com";
     };
   };
 
-  # Machine-specific Homebrew configuration
-  homebrew.casks = [
-    # Add work machine specific casks here
-  ];
-
-  homebrew.brews = [
-    # Add work machine specific brews here
-  ];
+  homebrew = {
+    enable = true;
+    casks = [
+      # Your casks
+    ];
+    brews = [
+      # Your brews
+    ];
+  };
 }
