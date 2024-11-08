@@ -1,0 +1,2951 @@
+{
+  ".GlobalPreferences_m": {
+    "AppleLocale": "en_US@rg=chzzzz",
+    "Sig_AppleLocale": "UserAccountUpdater(1462): 2024-11-06 06:36:58 (PST)",
+    "AppleLanguages": [
+      "en-US",
+      "de-CH",
+      "fr-CH",
+      "it-CH",
+      "ru-CH"
+    ],
+    "Sig_AppleLanguages": "KeyboardSettings(33914): 2024-11-07 17:26:16 (CET)"
+  },
+  "LighthouseBitacoraFramework": {},
+  "MobileMeAccounts": {
+    "Accounts": [
+      {
+        "DisplayName": "Petr Lavrov",
+        "lastName": "Lavrov",
+        "firstName": "Petr",
+        "isManagedAppleID": false,
+        "AccountID": "petr@superlinear.com",
+        "AccountDSID": "22121631698",
+        "beta": false,
+        "AccountAlternateDSID": "000072-08-767fb88c-8067-4b98-9806-714e9df9c15d",
+        "AccountUUID": "115836AA-C87B-4379-A7C6-BAE6242921EC",
+        "Services": [
+          {
+            "status": "active",
+            "Name": "CLOUDDESKTOP",
+            "ServiceID": "com.apple.Dataclass.CloudDesktop"
+          },
+          {
+            "askToBuyOverMessageKillSwitch": true,
+            "SCREEN_TIME": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=5",
+            "NEWS_PLUS": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=6",
+            "SHARE_MY_LOCATION": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=4",
+            "ASK_TO_BUY": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=11",
+            "ARCADE": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=8",
+            "preventAskToBuyMessageDeviceValidation": false,
+            "APPLE_MUSIC": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=2",
+            "Name": "FAMILY",
+            "askToBuyUpsellPage": "https://support.apple.com/HT201089",
+            "screenTimeOverMessageKillSwitch": false,
+            "preventScreenTimeMessageDeviceValidation": false,
+            "PODCASTS": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=17",
+            "ServiceID": "com.apple.Dataclass.Family",
+            "screenTimeUpsellPage": "https://support.apple.com/HT208982",
+            "usePDS": true,
+            "ICLOUD_STORAGE": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=3",
+            "TV_CHANNELS": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=7",
+            "ALL_SUBSCRIPTIONS": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=18",
+            "APPLE_SUBSCRIPTIONS": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=12",
+            "megadomeKillSwitch": false,
+            "showManageFamily": true,
+            "APPLE_TV_PLUS": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=9",
+            "APP_STORE_SUBSCRIPTIONS": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=13",
+            "PURCHASE_SHARING": "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=1"
+          },
+          {
+            "url": "https://p53-ubiquity.icloud.com:443",
+            "wsUrl": "https://p53-ubiquityws.icloud.com:443",
+            "apsEnv": "production",
+            "Name": "MOBILE_DOCUMENTS",
+            "ServiceID": "com.apple.Dataclass.Ubiquity",
+            "authMechanism": "token"
+          },
+          {
+            "Name": "PHOTO_STREAM",
+            "ServiceID": "com.apple.Dataclass.Photos"
+          },
+          {
+            "Name": "MESSAGES",
+            "ServiceID": "com.apple.Dataclass.Messages"
+          },
+          {
+            "Name": "MAIL_AND_NOTES",
+            "ServiceID": "com.apple.Dataclass.Mail"
+          },
+          {
+            "Name": "SETTINGS_SYNC",
+            "ServiceID": "com.apple.Dataclass.SettingsSync"
+          },
+          {
+            "beta": false,
+            "Name": "CONTACTS",
+            "protocol": "dav",
+            "url": "https://p53-contacts.icloud.com:443",
+            "authMechanism": "token",
+            "ServiceID": "com.apple.Dataclass.Contacts"
+          },
+          {
+            "sendReceiveURL": "https://p53-caldav.icloud.com:443/api/settings/sendreceive",
+            "protocol": "dav",
+            "Name": "CALENDAR",
+            "setEmailUrl": "https://p53-caldav.icloud.com:443/api/settings/email",
+            "beta": false,
+            "url": "https://p53-caldav.icloud.com:443",
+            "isMakoAccount": false,
+            "sharedCalendar": "https://p53-caldav.icloud.com:443/api/settings/sharedcalendar",
+            "getSettingsUrl": "https://p53-caldav.icloud.com:443/api/settings",
+            "ServiceID": "com.apple.Dataclass.Calendars",
+            "authMechanism": "token",
+            "setInvitationUrl": "https://p53-caldav.icloud.com:443/api/settings/invitation"
+          },
+          {
+            "beta": false,
+            "Name": "REMINDERS",
+            "protocol": "dav",
+            "url": "https://p53-caldav.icloud.com:443",
+            "authMechanism": "token",
+            "ServiceID": "com.apple.Dataclass.Reminders"
+          },
+          {
+            "apsEnv": "production",
+            "protocol": "dav",
+            "beta": false,
+            "authMechanism": "token",
+            "url": "https://p67-bookmarks.icloud.com:443",
+            "Name": "BOOKMARKS",
+            "ServiceID": "com.apple.Dataclass.Bookmarks"
+          },
+          {
+            "Name": "NOTES",
+            "ServiceID": "com.apple.Dataclass.Notes"
+          },
+          {
+            "Name": "SIRI",
+            "ServiceID": "com.apple.Dataclass.Siri"
+          },
+          {
+            "Name": "FREEFORM",
+            "ServiceID": "com.apple.Dataclass.Boards"
+          },
+          {
+            "Name": "PHONEFACETIME",
+            "ServiceID": "com.apple.Dataclass.PhoneFaceTime"
+          },
+          {
+            "authMechanism": "token",
+            "Name": "KEYCHAIN_SYNC",
+            "escrowProxyUrl": "https://p53-escrowproxy.icloud.com:443",
+            "Enabled": true,
+            "ServiceID": "com.apple.Dataclass.KeychainSync"
+          },
+          {
+            "apsEnv": "production",
+            "ServiceID": "com.apple.Dataclass.DeviceLocator",
+            "pairingURL": "https://gateway.icloud.com/fmadminws",
+            "authMechanism": "token",
+            "hostname": "p53-fmip.icloud.com",
+            "appHostname": "p53-fmipmobile.icloud.com",
+            "Name": "FIND_MY_MAC",
+            "url": "https://p53-fmip.icloud.com:443"
+          },
+          {
+            "Name": "STOCKS",
+            "ServiceID": "com.apple.Dataclass.Stocks"
+          },
+          {
+            "Name": "HOME",
+            "ServiceID": "com.apple.Dataclass.Home"
+          },
+          {
+            "Name": "WALLET",
+            "ServiceID": "com.apple.Dataclass.Shoebox"
+          }
+        ],
+        "AccountDescription": "petr@superlinear.com",
+        "primaryEmailVerified": true
+      }
+    ]
+  },
+  "com.apple.AMPLibraryAgent": {
+    "devices-persistent-id": 2724539560562190658,
+    "debugAssertCategoriesVersion": 3,
+    "podcasts-migrated": 1,
+    "storeSupportsUPP": true,
+    "storeSupportsPreviousPurchases": true,
+    "podcasts-persistent-id": 3801532014150484590,
+    "imported-media-domains-modification-date": "Wed, 06 Nov 2024 14:37:09 GMT",
+    "debugAssertCategoriesEnabled": 0,
+    "storeSupportsPasswordSettings": true,
+    "storeMediaTypeFlags": 3406,
+    "books-persistent-id": 6338870057229726884,
+    "books-migrated": 1,
+    "imported-media-domains": 15
+  },
+  "com.apple.APFSUserAgent": {
+    "LastBootUUID": "A9405C83-4A9D-4C58-9564-027FF5F6DE20"
+  },
+  "com.apple.Accessibility": {
+    "FullKeyboardAccessEnabled": 0,
+    "BrailleInputDeviceConnected": 0,
+    "ReduceMotionEnabled": 0,
+    "ApplicationAccessibilityEnabled": 0,
+    "AXSClassicInvertColorsPreference": 0,
+    "FullKeyboardAccessFocusRingEnabled": 1,
+    "DifferentiateWithoutColor": 0,
+    "AutomationEnabled": 0,
+    "GenericAccessibilityClientEnabled": 0,
+    "GrayscaleDisplay": 0,
+    "CommandAndControlEnabled": 0,
+    "InvertColorsEnabled": 0,
+    "KeyRepeatDelay": 0.5,
+    "KeyRepeatEnabled": 1,
+    "EnhancedBackgroundContrastEnabled": 0,
+    "DarkenSystemColors": 0,
+    "VoiceOverTouchEnabled": 0,
+    "KeyRepeatInterval": 0.083333332999999996,
+    "SpeakThisEnabled": 0
+  },
+  "com.apple.AccessibilityHearingNearby": {
+    "AccessibilityHearingNearby": {
+      "IncomingData": {
+        "TimeStamp": "2024-11-07 15:21:34:47",
+        "com.apple.heard.xpc": {
+          "Count": 2,
+          "TimeStamps": [
+            [
+              "2024-11-07 15:21:34:47",
+              24388,
+              "New XPC"
+            ],
+            [
+              "2024-11-07 15:21:34:47",
+              24388,
+              "ComfortSoundsAsset (16777216)"
+            ]
+          ]
+        },
+        "TotalCount": 2
+      },
+      "OutcomingData": {
+        "TotalCount": 0
+      }
+    }
+  },
+  "com.apple.AdLib": {
+    "CKDPIDSyncState": 0,
+    "allowIdentifierForAdvertising": false,
+    "partiality-segment": "https://partiality.itunes.apple.com/WebObjects/MZPartiality.woa/wa/IAD/segment",
+    "personalizedAdsMigrated": true,
+    "allowApplePersonalizedAdvertising": false
+  },
+  "com.apple.AdPlatforms": {
+    "AdPlatformsPAAvailable": true,
+    "personalizedAdsDefaulted": true,
+    "LatestPAVersion": 1
+  },
+  "com.apple.AddressBook": {},
+  "com.apple.AppStore": {
+    "mostRecentTabIdentifier": "search",
+    "AutoPlayVideoSetting": "on",
+    "UserSetAutoPlayVideoSetting": false,
+    "ASAcknowledgedOnboardingVersion": 6,
+    "lastBootstrapDate": 752761788.04473805,
+    "lastBootstrapTimeZone": "Europe/Zurich"
+  },
+  "com.apple.AppStoreComponents": {
+    "ASCLocaleID": "en-GB@calendar=gregorian"
+  },
+  "com.apple.AppleMediaServices.notbackedup": {
+    "AMSDidRetrieveDeviceOffers": true,
+    "AMSDidRetrieveDeviceOffersEligibility": true
+  },
+  "com.apple.AppleMultitouchMouse": {
+    "MouseOneFingerDoubleTapGesture": 0,
+    "MouseTwoFingerHorizSwipeGesture": 2,
+    "MouseVerticalScroll": true,
+    "UserPreferences": true,
+    "MouseMomentumScroll": true,
+    "MouseButtonDivision": 55,
+    "MouseHorizontalScroll": true,
+    "version": 1,
+    "MouseTwoFingerDoubleTapGesture": 3,
+    "MouseButtonMode": "OneButton"
+  },
+  "com.apple.AppleMultitouchTrackpad": {
+    "TrackpadThreeFingerDrag": false,
+    "TrackpadPinch": 1,
+    "TrackpadFourFingerVertSwipeGesture": 2,
+    "USBMouseStopsTrackpad": 0,
+    "ActuateDetents": 1,
+    "FirstClickThreshold": 1,
+    "SecondClickThreshold": 1,
+    "TrackpadHorizScroll": 1,
+    "TrackpadFourFingerPinchGesture": 2,
+    "TrackpadMomentumScroll": true,
+    "TrackpadRotate": 1,
+    "TrackpadThreeFingerHorizSwipeGesture": 2,
+    "Clicking": 0,
+    "TrackpadThreeFingerTapGesture": 0,
+    "TrackpadTwoFingerDoubleTapGesture": 1,
+    "TrackpadScroll": true,
+    "DragLock": 0,
+    "TrackpadFiveFingerPinchGesture": 2,
+    "ForceSuppressed": false,
+    "TrackpadThreeFingerVertSwipeGesture": 2,
+    "TrackpadTwoFingerFromRightEdgeSwipeGesture": 3,
+    "UserPreferences": true,
+    "version": 12,
+    "TrackpadHandResting": true,
+    "Dragging": 0,
+    "TrackpadCornerSecondaryClick": 0,
+    "TrackpadRightClick": true,
+    "TrackpadFourFingerHorizSwipeGesture": 2
+  },
+  "com.apple.AvatarUI.Staryu": {
+    "AVTUIGlobalPreferencesFlushStickersCache": true,
+    "AVTAvatarUIFlushThumbnailCache": true,
+    "AVTAvatarUILastCacheVersion": 346000000
+  },
+  "com.apple.BKAgentService": {
+    "BKAgentServiceUseriCloudSetting": false
+  },
+  "com.apple.BatteryCenter.BatteryWidget": {},
+  "com.apple.BezelServices": {
+    "BatteryHistory": {},
+    "afActionHistory": {}
+  },
+  "com.apple.CharacterPaletteIM": {
+    "version": 1,
+    "CVStartAsLargeWindow": false
+  },
+  "com.apple.ClassKit-Settings.extension": {
+    "showClassKitPrefsPane": false
+  },
+  "com.apple.Classroom-Settings.extension": {},
+  "com.apple.CloudKit": {
+    "AccountInfoValidationCounter": 302
+  },
+  "com.apple.CloudTelemetryService.xpc": {
+    "CKPerBootTasks": [
+      "CKAccountInfoCacheReset"
+    ],
+    "CKStartupTime": 1730902691
+  },
+  "com.apple.CommCenter.counts": {
+    "MTMMSRecvFailedCount": {
+      "value": 0,
+      "starttimestamp": 1730903817722
+    },
+    "CellularBytesRecved": {
+      "value": 0,
+      "starttimestamp": 1730903817722
+    },
+    "MOMMSSendFailedCount": {
+      "value": 0,
+      "starttimestamp": 1730903817721
+    },
+    "MTSMSRecvFailedCount": {
+      "value": 0,
+      "starttimestamp": 1730903817721
+    },
+    "CellularBytesSent": {
+      "value": 0,
+      "starttimestamp": 1730903817722
+    },
+    "SRUMB_Attempt_Count": {
+      "value": 0,
+      "starttimestamp": 1730903817722
+    },
+    "MOSMSSendFailedCount": {
+      "value": 0,
+      "starttimestamp": 1730903817721
+    },
+    "MOSMSSendSuccessfulCount": {
+      "value": 0,
+      "starttimestamp": 1730903817720
+    },
+    "MTMMSRecvSuccessfulCount": {
+      "value": 0,
+      "starttimestamp": 1730903817721
+    },
+    "MTSMSRecvSuccessfulCount": {
+      "value": 0,
+      "starttimestamp": 1730903817721
+    },
+    "MOMMSSendSuccessfulCount": {
+      "value": 0,
+      "starttimestamp": 1730903817721
+    },
+    "VVMNotificationsRecvedCount": {
+      "value": 0,
+      "starttimestamp": 1730903817722
+    }
+  },
+  "com.apple.CoreGraphics": {
+    "DisplayUseForcedGray": false,
+    "DisplayUseInvertedPolarity": false
+  },
+  "com.apple.DictionaryServices": {
+    "DCSPreferenceVersion": 7
+  },
+  "com.apple.EmojiCache": {
+    "24A348_en-US": [
+      "🏳️",
+      "🏴",
+      "🏴‍☠️",
+      "🏁",
+      "🚩",
+      "🏳️‍🌈",
+      "🏳️‍⚧️",
+      "🇺🇳",
+      "🇦🇫",
+      "🇦🇽",
+      "🇦🇱",
+      "🇩🇿",
+      "🇦🇸",
+      "🇦🇩",
+      "🇦🇴",
+      "🇦🇮",
+      "🇦🇶",
+      "🇦🇬",
+      "🇦🇷",
+      "🇦🇲",
+      "🇦🇼",
+      "🇦🇺",
+      "🇦🇹",
+      "🇦🇿",
+      "🇧🇸",
+      "🇧🇭",
+      "🇧🇩",
+      "🇧🇧",
+      "🇧🇾",
+      "🇧🇪",
+      "🇧🇿",
+      "🇧🇯",
+      "🇧🇲",
+      "🇧🇹",
+      "🇧🇴",
+      "🇧🇦",
+      "🇧🇼",
+      "🇧🇷",
+      "🇻🇬",
+      "🇧🇳",
+      "🇧🇬",
+      "🇧🇫",
+      "🇧🇮",
+      "🇰🇭",
+      "🇨🇲",
+      "🇨🇦",
+      "🇮🇨",
+      "🇨🇻",
+      "🇧🇶",
+      "🇰🇾",
+      "🇨🇫",
+      "🇹🇩",
+      "🇮🇴",
+      "🇨🇱",
+      "🇨🇳",
+      "🇨🇽",
+      "🇨🇨",
+      "🇨🇴",
+      "🇰🇲",
+      "🇨🇬",
+      "🇨🇩",
+      "🇨🇰",
+      "🇨🇷",
+      "🇨🇮",
+      "🇭🇷",
+      "🇨🇺",
+      "🇨🇼",
+      "🇨🇾",
+      "🇨🇿",
+      "🇩🇰",
+      "🇩🇯",
+      "🇩🇲",
+      "🇩🇴",
+      "🇪🇨",
+      "🇪🇬",
+      "🇸🇻",
+      "🇬🇶",
+      "🇪🇷",
+      "🇪🇪",
+      "🇸🇿",
+      "🇪🇹",
+      "🇪🇺",
+      "🇫🇰",
+      "🇫🇴",
+      "🇫🇯",
+      "🇫🇮",
+      "🇫🇷",
+      "🇬🇫",
+      "🇵🇫",
+      "🇹🇫",
+      "🇬🇦",
+      "🇬🇲",
+      "🇬🇪",
+      "🇩🇪",
+      "🇬🇭",
+      "🇬🇮",
+      "🇬🇷",
+      "🇬🇱",
+      "🇬🇩",
+      "🇬🇵",
+      "🇬🇺",
+      "🇬🇹",
+      "🇬🇬",
+      "🇬🇳",
+      "🇬🇼",
+      "🇬🇾",
+      "🇭🇹",
+      "🇭🇳",
+      "🇭🇰",
+      "🇭🇺",
+      "🇮🇸",
+      "🇮🇳",
+      "🇮🇩",
+      "🇮🇷",
+      "🇮🇶",
+      "🇮🇪",
+      "🇮🇲",
+      "🇮🇱",
+      "🇮🇹",
+      "🇯🇲",
+      "🇯🇵",
+      "🎌",
+      "🇯🇪",
+      "🇯🇴",
+      "🇰🇿",
+      "🇰🇪",
+      "🇰🇮",
+      "🇽🇰",
+      "🇰🇼",
+      "🇰🇬",
+      "🇱🇦",
+      "🇱🇻",
+      "🇱🇧",
+      "🇱🇸",
+      "🇱🇷",
+      "🇱🇾",
+      "🇱🇮",
+      "🇱🇹",
+      "🇱🇺",
+      "🇲🇴",
+      "🇲🇬",
+      "🇲🇼",
+      "🇲🇾",
+      "🇲🇻",
+      "🇲🇱",
+      "🇲🇹",
+      "🇲🇭",
+      "🇲🇶",
+      "🇲🇷",
+      "🇲🇺",
+      "🇾🇹",
+      "🇲🇽",
+      "🇫🇲",
+      "🇲🇩",
+      "🇲🇨",
+      "🇲🇳",
+      "🇲🇪",
+      "🇲🇸",
+      "🇲🇦",
+      "🇲🇿",
+      "🇲🇲",
+      "🇳🇦",
+      "🇳🇷",
+      "🇳🇵",
+      "🇳🇱",
+      "🇳🇨",
+      "🇳🇿",
+      "🇳🇮",
+      "🇳🇪",
+      "🇳🇬",
+      "🇳🇺",
+      "🇳🇫",
+      "🇰🇵",
+      "🇲🇰",
+      "🇲🇵",
+      "🇳🇴",
+      "🇴🇲",
+      "🇵🇰",
+      "🇵🇼",
+      "🇵🇸",
+      "🇵🇦",
+      "🇵🇬",
+      "🇵🇾",
+      "🇵🇪",
+      "🇵🇭",
+      "🇵🇳",
+      "🇵🇱",
+      "🇵🇹",
+      "🇵🇷",
+      "🇶🇦",
+      "🇷🇪",
+      "🇷🇴",
+      "🇷🇺",
+      "🇷🇼",
+      "🇼🇸",
+      "🇸🇲",
+      "🇸🇹",
+      "🇸🇦",
+      "🇸🇳",
+      "🇷🇸",
+      "🇸🇨",
+      "🇸🇱",
+      "🇸🇬",
+      "🇸🇽",
+      "🇸🇰",
+      "🇸🇮",
+      "🇬🇸",
+      "🇸🇧",
+      "🇸🇴",
+      "🇿🇦",
+      "🇰🇷",
+      "🇸🇸",
+      "🇪🇸",
+      "🇱🇰",
+      "🇧🇱",
+      "🇸🇭",
+      "🇰🇳",
+      "🇱🇨",
+      "🇵🇲",
+      "🇻🇨",
+      "🇸🇩",
+      "🇸🇷",
+      "🇸🇪",
+      "🇨🇭",
+      "🇸🇾",
+      "🇹🇯",
+      "🇹🇿",
+      "🇹🇭",
+      "🇹🇱",
+      "🇹🇬",
+      "🇹🇰",
+      "🇹🇴",
+      "🇹🇹",
+      "🇹🇳",
+      "🇹🇷",
+      "🇹🇲",
+      "🇹🇨",
+      "🇹🇻",
+      "🇻🇮",
+      "🇺🇬",
+      "🇺🇦",
+      "🇦🇪",
+      "🇬🇧",
+      "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+      "🇺🇸",
+      "🇺🇾",
+      "🇺🇿",
+      "🇻🇺",
+      "🇻🇦",
+      "🇻🇪",
+      "🇻🇳",
+      "🇼🇫",
+      "🇪🇭",
+      "🇾🇪",
+      "🇿🇲",
+      "🇿🇼"
+    ]
+  },
+  "com.apple.EmojiPreferences": {
+    "EMFDefaultsKey": {
+      "EMFRecentSequenceNumberKey": 0
+    }
+  },
+  "com.apple.ExtensionsPreferences.ShareMenu": {
+    "displayOrder": [
+      "com.apple.share.System.add-to-safari-reading-list",
+      "com.apple.share.AirDrop.send",
+      "com.apple.groupactivities",
+      "com.apple.share.Mail.compose",
+      "com.apple.share.Mail.compose-back-to-sender",
+      "com.apple.messages.ShareExtension",
+      "com.apple.messages.ReplyExtension",
+      "com.apple.Notes.SharingExtension",
+      "com.apple.news.openinnews",
+      "com.apple.reminders.RemindersShareExtension",
+      "com.apple.share.System.set-account-picture",
+      "com.apple.share.System.set-buddy-picture",
+      "com.apple.share.System.set-desktop-image",
+      "com.apple.share.System.add-to-iphoto",
+      "com.apple.share.System.add-to-aperture"
+    ]
+  },
+  "com.apple.FamilyCircle": {},
+  "com.apple.FamilyControlsAgent": {
+    "didMigrateSharingAppleIDs": true
+  },
+  "com.apple.GEO": {
+    "DefaultsSanitizedVersion": 20190107
+  },
+  "com.apple.GenerativeFunctions.GenerativeFunctionsInstrumentation": {
+    "GenerativeModelsAvailability.lastStatus": 65539,
+    "GenerativeModelsAvailability.lastStatusTime": 1730978811.9387479,
+    "uploadTaskBookmark": 752753689.40393198
+  },
+  "com.apple.HearingAids": {
+    "HearingFeatureUsagePreference": 64
+  },
+  "com.apple.IFTelemetrySELFIngestor": {},
+  "com.apple.Keyboard-Settings.extension": {
+    "NSWindow Frame NSSpellCheckerSubstitutionsPanel2": "692 407 425 137 0 0 1800 1125 "
+  },
+  "com.apple.MobileSMS": {},
+  "com.apple.PersonalAudio": {
+    "shouldUpdateAccessory": true
+  },
+  "com.apple.Safari.SafariWidgetExtension": {
+    "DidFillFavoritesBarWithBuiltInBookmarks": true
+  },
+  "com.apple.SafariCloudHistoryPushAgent": {
+    "AcknowledgedPushNotifications": false
+  },
+  "com.apple.SetupAssistant": {
+    "DidSeeIntelligence": false,
+    "MiniBuddyLaunchReason": 0,
+    "SkipExpressSettingsUpdating": false,
+    "MiniBuddyLaunchedPostMigration": false,
+    "DidSeePrivacy": true,
+    "LastSeenBuddyBuildVersion": "24A348",
+    "FDECSLVUUIDs": [
+      "859E3200-5195-4B23-9B83-8E86481B2F2A"
+    ],
+    "DidSeeSyncSetup": true,
+    "MiniBuddyShouldLaunchToResumeSetup": false,
+    "DidSeeSiriSetup": true,
+    "LastSeenDiagnosticsProductVersion": "15.0.1",
+    "LastSeenSiriProductVersion": "15.0.1",
+    "DidSeeSyncSetup2": true,
+    "SkipFirstLoginOptimization": false,
+    "DidSeeTouchIDSetup": true,
+    "DidSeeTermsOfAddress": false,
+    "LastSeenSyncProductVersion": "15.0.1",
+    "DidSeeScreenTime": true,
+    "DidSeeCloudSetup": true,
+    "DidSeeAccessibility": true,
+    "DidSeeAppearanceSetup": true,
+    "DidSeeActivationLock": false,
+    "DidSeeAppStore": false,
+    "DidSeeLockdownMode": false,
+    "LastPrivacyBundleVersion": "2",
+    "LastSeenCloudProductVersion": "15.0.1",
+    "DidSeeApplePaySetup": true,
+    "DidSeeiCloudLoginForStorageServices": true,
+    "PreviousBuildVersion": "0",
+    "PreviousSystemVersion": "0"
+  },
+  "com.apple.Spotlight": {
+    "lastWindowPosition": "{{600, 505}, {600, 430}}",
+    "NSStatusItem Preferred Position Item-0": 10493,
+    "NSStatusItem Visible Item-0": true,
+    "engagementCountForDate-com.apple.Spotlight": 1,
+    "__NSEnableTSMDocumentWindowLevel": true,
+    "lastVisibleScreenRect": "{{0, 0}, {1800, 1125}}",
+    "engagementCount-com.apple.Spotlight": 3,
+    "engagementDate-com.apple.Spotlight": "2024-11-07",
+    "showedFTE": true,
+    "startTime": 752689578.05431497
+  },
+  "com.apple.TTY": {
+    "RTTSettingsVersionPreference": 2,
+    "TTYHardwareEnabledPreference": {
+      "RTTWildcardContext": false
+    },
+    "TTYShouldBeRealtimePreference": {
+      "RTTWildcardContext": true
+    },
+    "TUSupportsRelayCallingPreference": false,
+    "RTTContinuityRTTIsSupportedPreference": false,
+    "TUIsRelayCallingEnabledPreference": false,
+    "IncomingCallsTTYPreference": {
+      "RTTWildcardContext": false
+    }
+  },
+  "com.apple.TelephonyUtilities": {
+    "CachedVCCaps": 17592188010496,
+    "thumperCallingCapabilitiesStates": [],
+    "kLastIDSFirewallVersionDefaultsKey": 1,
+    "registeredProvidersVersion": 1
+  },
+  "com.apple.TextInputMenu": {
+    "visible": true
+  },
+  "com.apple.TextInputMenuAgent": {
+    "NSStatusItem Preferred Position Item-0": 10525
+  },
+  "com.apple.TrustedPeersHelper": {
+    "CKPerBootTasks": [
+      "CKAccountInfoCacheReset"
+    ],
+    "CKStartupTime": 1730902691
+  },
+  "com.apple.UnifiedAssetFramework": {
+    "PersistedDeviceId": "D03F114C-476F-480C-9A58-446B7D7A06EB"
+  },
+  "com.apple.UserAccountUpdater": {
+    "com.apple.HidLibraryFolderAlready": true
+  },
+  "com.apple.WatchListKit": {
+    "AMSBagTracker_NowPlayingEnabledKey": true,
+    "hasMigratedToNewBadgingSystem": true,
+    "lastKnownTVAppEnabledValue": true
+  },
+  "com.apple.WindowManager": {
+    "AppWindowGroupingBehavior": 1,
+    "StageManagerHideWidgets": false,
+    "StandardHideWidgets": false,
+    "AutoHide": false,
+    "HideDesktop": true,
+    "LastHeartbeatDateString.daily": "2024-11-07T13:26:10Z"
+  },
+  "com.apple.accessory.Hearing": {
+    "activeHearingProtectionAvailable": {
+      "08:FF:44:1E:11:0B": false
+    }
+  },
+  "com.apple.accounts.suggestions": {
+    "InitialLocalMigration": true,
+    "LocalDeviceID": "7C64D1E3-EADF-432C-AB37-F2CCB40476BF"
+  },
+  "com.apple.accountsd": {
+    "AuthenticationPluginCache": {
+      "com.apple.account.126": "EmailAuthenticationPlugin.bundle",
+      "com.apple.account.CalDAV": "DAAccountAuthenticator.bundle",
+      "com.apple.account.FaceTime": "AAIDSAuthenticationPlugin.bundle",
+      "com.apple.account.Yahoo": "YahooAuthenticationPlugin.bundle",
+      "com.apple.account.LDAP": "ContactsAccountsAuthenticationPlugin.bundle",
+      "com.apple.account.SubscribedCalendar": "DAAccountAuthenticator.bundle",
+      "com.apple.account.CloudKit": "CloudKitAuthenticationPlugin.bundle",
+      "com.apple.account.AppleIDAuthentication": "AppleIDSSOAuthenticationPlugin.bundle",
+      "com.apple.account.Google": "GoogleAuthenticationPlugin.bundle",
+      "com.apple.account.iTunesStore.sandbox": "AMSAccountAuthenticationPlugin.bundle",
+      "com.apple.account.IdentityServices": "AAIDSAuthenticationPlugin.bundle",
+      "com.apple.tudou": "TudouAuthenticationPlugin.bundle",
+      "com.apple.youku": "YoukuAuthenticationPlugin.bundle",
+      "com.apple.account.iTunesStore": "AMSAccountAuthenticationPlugin.bundle",
+      "com.apple.account.POP": "EmailAuthenticationPlugin.bundle",
+      "com.apple.account.SMTP": "EmailAuthenticationPlugin.bundle",
+      "com.apple.account.PublishedCalendar": "DAAccountAuthenticator.bundle",
+      "com.apple.account.Exchange": "ExchangeAuthenticationPlugin.bundle",
+      "com.apple.account.GameCenter": "iCloudIDAuthentication.bundle",
+      "com.apple.account.AppleAccount": "iCloudIDAuthentication.bundle",
+      "com.apple.account.CardDAV": "ContactsAccountsAuthenticationPlugin.bundle",
+      "com.apple.account.qq": "EmailAuthenticationPlugin.bundle",
+      "com.apple.account.aol": "YahooAuthenticationPlugin.bundle",
+      "com.apple.account.163": "EmailAuthenticationPlugin.bundle",
+      "com.apple.account.IMAP": "EmailAuthenticationPlugin.bundle",
+      "com.apple.account.Madrid": "AAIDSAuthenticationPlugin.bundle"
+    },
+    "LastSystemVersion": "24A348"
+  },
+  "com.apple.amp.mediasharingd": {
+    "home-sharing-enabled": 0,
+    "photo-sharing-settings": {
+      "photosAppSyncAllFaces": false,
+      "psElementsCopyOriginalPhotos": false,
+      "photosAppEventCount": 255,
+      "photosAppCopyOriginalPhotos": false,
+      "photo-sharing-source-id": 0,
+      "psElementsAlbums": [],
+      "psElementsCustomAlbumOrder": 0,
+      "photosFolderSyncMode": 0,
+      "psAlbumAlbums": [],
+      "photosAppSyncAllAlbums": false,
+      "photosFolderCustomAlbumOrder": 0,
+      "photosAppAutoIncludeEnabled": false,
+      "psAlbumSyncMode": 0,
+      "psElementsSyncMode": 0,
+      "photosAppSyncMode": 0,
+      "photosFolderInfo": {
+        "syncFolderIsValid": false,
+        "syncFolderIsFromMac": false
+      },
+      "photosFolderCopyOriginalPhotos": false,
+      "photosAppCustomAlbumOrder": 0,
+      "psAlbumCustomAlbumOrder": 0,
+      "photosAppOnlyFavorites": false,
+      "psAlbumSyncPhotoVideos": false,
+      "psElementsSyncPhotoVideos": false,
+      "psAlbumCopyOriginalPhotos": false,
+      "photosAppSyncPhotoVideos": false,
+      "photosAppAlbums": [],
+      "photosFolderSyncPhotoVideos": false,
+      "photosFolderAlbums": []
+    },
+    "public-sharing-enabled": 0,
+    "home-sharing-sequence-id": 100,
+    "home-sharing-computer-id": "",
+    "home-sharing-group-id": "",
+    "photo-sharing-enabled": 0,
+    "shared-library-id": -4154586408525769236,
+    "public-sharing-is-protected": 0,
+    "shared-library-machine-id": 7195330430044201638,
+    "home-sharing-settings": {
+      "home-sharing-user-id": 0,
+      "home-sharing-user-name": "",
+      "home-sharing-update-play-counts": false
+    },
+    "shared-library-name": "Petr Lavrov’s Library",
+    "public-sharing-settings": {
+      "public-sharing-share-all-playlists": false
+    }
+  },
+  "com.apple.assistant.support": {
+    "Assistant Enabled": false,
+    "Offline Dictation Status": {
+      "fr-FR": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "ar-SA": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "en-ZA": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "nl-BE": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "de-CH": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "en-AU": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "th-TH": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "fr-BE": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "de-DE": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "en-US": {
+        "Continuous Listening": true,
+        "High Quality": true,
+        "Installed": true,
+        "Voice Commands": false,
+        "Emoji Recognition": true,
+        "Auto Punctuation": true,
+        "On Device Search": true
+      },
+      "pt-BR": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "en-IE": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "en-NZ": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "sv-SE": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "tr-TR": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "ja-JP": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "en-IN": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "ms-MY": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "ko-KR": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "nb-NO": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "it-CH": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "es-CL": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "da-DK": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "en-SG": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "es-MX": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "en-CA": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "fr-CA": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "nl-NL": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "de-AT": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "es-ES": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "fi-FI": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "he-IL": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "it-IT": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "yue-CN": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "zh-HK": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "zh-TW": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "zh-CN": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "ru-RU": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "en-GB": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "fr-CH": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      },
+      "es-US": {
+        "Continuous Listening": false,
+        "High Quality": true,
+        "Installed": false,
+        "Voice Commands": false,
+        "Emoji Recognition": false,
+        "Auto Punctuation": false,
+        "On Device Search": false
+      }
+    }
+  },
+  "com.apple.bird": {
+    "CKPerBootTasks": [
+      "CKAccountInfoCacheReset"
+    ],
+    "icloud-drive.account-migration-status.22121631698": 4,
+    "CKStartupTime": 1730902691,
+    "optimize-storage": true
+  },
+  "com.apple.businessservicesd": {
+    "CKPerBootTasks": [
+      "CKAccountInfoCacheReset"
+    ],
+    "CKStartupTime": 1730902691
+  },
+  "com.apple.classroom": {
+    "allowClassroomLockDevice-00000000-0000-0000-0000-000000000000:0": true,
+    "allowClassroomScreenObservation-00000000-0000-0000-0000-000000000000:0-ask": false,
+    "allowClassroomScreenObservation-00000000-0000-0000-0000-000000000000:0": true,
+    "allowClassroomOpenApp-00000000-0000-0000-0000-000000000000:0-ask": false,
+    "allowClassroomOpenURL-ask": false,
+    "allowClassroomOpenURL": true,
+    "allowClassroomLockDevice-00000000-0000-0000-0000-000000000000:0-ask": false,
+    "allowClassroomOpenApp-00000000-0000-0000-0000-000000000000:0": true,
+    "allowClassroomOpenURL-00000000-0000-0000-0000-000000000000:0-ask": false,
+    "forceUnpromptedRemoteScreenObservation-00000000-0000-0000-0000-000000000000:0-ask": false,
+    "allowClassroomOpenURL-00000000-0000-0000-0000-000000000000:0": true,
+    "forceUnpromptedRemoteScreenObservation-00000000-0000-0000-0000-000000000000:0": true,
+    "allowClassroomOpenApp": true,
+    "allowClassroomOpenApp-ask": false
+  },
+  "com.apple.cloudd": {
+    "CKPerBootTasks": [
+      "AccountInfoValidationCounterReset",
+      "CKPDSOrphanedUserCheck"
+    ],
+    "CKStartupTime": 1730902691
+  },
+  "com.apple.commcenter": {
+    "Version": 1
+  },
+  "com.apple.commcenter.callservices": {
+    "last.known.icloud.id": "f236c77f06fb6abf60f3c6e22851e7c2a46f328d"
+  },
+  "com.apple.commcenter.data": {
+    "pw_ver": 2
+  },
+  "com.apple.contextsync.subscriptions": {
+    "rebootNotificationDelivered": true,
+    "storageVersion": 1,
+    "lastBootUUID": "A9405C83-4A9D-4C58-9564-027FF5F6DE20"
+  },
+  "com.apple.controlcenter": {
+    "NSStatusItem Visible Item-6": false,
+    "NSStatusItem Visible Sound": false,
+    "LastHeartbeatDateString.daily": "2024-11-07T13:26:10Z",
+    "NSStatusItem Visible Item-0": false,
+    "NSStatusItem Visible Item-1": false,
+    "NSStatusItem Preferred Position AudioVideoModule": 10603,
+    "NSStatusItem Visible NowPlaying": false,
+    "NSStatusItem Visible AudioVideoModule": false,
+    "NSStatusItem Visible Item-2": false,
+    "NSStatusItem Preferred Position Sound": 228,
+    "NSStatusItem Visible Clock": true,
+    "NSStatusItem Preferred Position Battery": 5319,
+    "NSStatusItem Preferred Position WiFi": 5281,
+    "NSStatusItem Visible Item-3": false,
+    "NSStatusItem Visible Battery": true,
+    "NSStatusItem Preferred Position NowPlaying": 346,
+    "NSStatusItem Visible Item-4": false,
+    "NSStatusItem Visible WiFi": true,
+    "NSStatusItem Preferred Position BentoBox": 124,
+    "NSStatusItem Visible Item-5": false,
+    "NSStatusItem Visible BentoBox": true
+  },
+  "com.apple.coreservices.uiagent": {
+    "NSWindow Frame CSUIGatekeeperProgressWindow": "700 816 400 70 0 0 1800 1125 ",
+    "CSUIHaveCenteredGatekeeperProgressWindow": true
+  },
+  "com.apple.coreservices.useractivityd.dynamicuseractivites": {},
+  "com.apple.corespotlightui": {
+    "CSReceiverBundleIdentifierState": {
+      "com.apple.Notes": true,
+      "com.apple.mobilecal": true,
+      "com.apple.AppStore": true,
+      "com.apple.spotlight.contacts": true,
+      "com.apple.shortcuts": true,
+      "com.apple.helpviewer": true,
+      "com.apple.reminders": true,
+      "com.apple.Safari": true,
+      "com.apple.systempreferences": true,
+      "com.apple.Stickers": true,
+      "com.apple.Photos": true,
+      "com.surteesstudios.Bartender": true,
+      "com.apple.tips": true,
+      "com.apple.fileprovider.fileproviderd": true,
+      "com.apple.CloudDocs.iCloudDriveFileProvider": true,
+      "ru.keepcoder.Telegram": true,
+      "com.apple.CalendarUI": true
+    }
+  },
+  "com.apple.dataaccess.babysitter": {
+    "FailedWaiters": {},
+    "RestrictedWaiters": {},
+    "LastSystemVersion": "24A348",
+    "RefreshingWaiters": {}
+  },
+  "com.apple.dataaccess.dataaccessd": {
+    "kDAMigrationBuildVersionKey": "24A348"
+  },
+  "com.apple.diagnosticextensionsd": {
+    "directoriesCleanupDone": true
+  },
+  "com.apple.driver.AppleBluetoothMultitouch.mouse": {
+    "MouseOneFingerDoubleTapGesture": 0,
+    "MouseTwoFingerHorizSwipeGesture": 2,
+    "MouseVerticalScroll": true,
+    "UserPreferences": true,
+    "MouseMomentumScroll": true,
+    "MouseButtonDivision": 55,
+    "MouseHorizontalScroll": true,
+    "MouseTwoFingerDoubleTapGesture": 3,
+    "MouseButtonMode": "OneButton"
+  },
+  "com.apple.driver.AppleBluetoothMultitouch.trackpad": {
+    "TrackpadThreeFingerDrag": false,
+    "TrackpadPinch": 1,
+    "TrackpadFourFingerVertSwipeGesture": 2,
+    "USBMouseStopsTrackpad": 0,
+    "TrackpadThreeFingerTapGesture": 0,
+    "TrackpadHorizScroll": 1,
+    "TrackpadFourFingerPinchGesture": 2,
+    "TrackpadTwoFingerDoubleTapGesture": 1,
+    "TrackpadMomentumScroll": true,
+    "TrackpadRotate": 1,
+    "TrackpadThreeFingerHorizSwipeGesture": 2,
+    "Clicking": 0,
+    "UserPreferences": true,
+    "version": 5,
+    "TrackpadScroll": true,
+    "DragLock": 0,
+    "TrackpadFiveFingerPinchGesture": 2,
+    "TrackpadThreeFingerVertSwipeGesture": 2,
+    "TrackpadTwoFingerFromRightEdgeSwipeGesture": 3,
+    "TrackpadHandResting": true,
+    "Dragging": 0,
+    "TrackpadCornerSecondaryClick": 0,
+    "TrackpadRightClick": true,
+    "TrackpadFourFingerHorizSwipeGesture": 2
+  },
+  "com.apple.driver.AppleHIDMouse": {
+    "Button4Force": 0,
+    "ScrollH": 1,
+    "ButtonDominance": 1,
+    "Button4": 0,
+    "Button3": 0,
+    "ScrollSSize": 30,
+    "Button4Click": 0,
+    "ScrollV": 1,
+    "Button1": 1,
+    "Button2": 1,
+    "ScrollS": 4
+  },
+  "com.apple.fileproviderd": {
+    "com.apple.fileproviderd.did-drop-daemon-corespotlight-index": 1,
+    "iCDPackageExtensions": [
+      "itmsp-app",
+      "cyndata",
+      "pxm",
+      "pzdoc",
+      "pvoc",
+      "cpimage",
+      "qvnote",
+      "numbers",
+      "dayone",
+      "dictionary",
+      "xpc",
+      "psdownload",
+      "raft",
+      "cyndicate",
+      "ssdownload",
+      "avchd",
+      "hsproj",
+      "seetext",
+      "qlgenerator",
+      "pages",
+      "mdlabels",
+      "fullbackup",
+      "pigment",
+      "plugin",
+      "haslibrary",
+      "caction",
+      "ipa",
+      "adiumstatusicons",
+      "cinemagraph",
+      "ramd",
+      "scd",
+      "adiumsoundset",
+      "moneywell",
+      "pvxmdb",
+      "networkconnect",
+      "_ultheme",
+      "quickpick",
+      "xcappdata",
+      "familyfile10",
+      "eyetvtdmp",
+      "dashsync",
+      "dylib",
+      "ccc",
+      "service",
+      "xcdatamodeld",
+      "alfredpreferences",
+      "adiummenubaricons",
+      "brushes",
+      "mlproj",
+      "workflow",
+      "logic",
+      "sparsebundle",
+      "aplmodel",
+      "oo3",
+      "listlayout",
+      "dsym",
+      "textstyles",
+      "glibb",
+      "bundle",
+      "highland",
+      "adiumemoticonset",
+      "mdimporter",
+      "gtemplate",
+      "xcarchive",
+      "pc3cons",
+      "wvp",
+      "soundhoundhistory",
+      "dvtplugin",
+      "adjustments",
+      "task",
+      "textexpanderlocal",
+      "rtfd",
+      "internetconnect",
+      "logicx",
+      "monitorpanel",
+      "embermdbackup",
+      "pfx",
+      "pvmdb",
+      "pluginkit",
+      "nnwstyle",
+      "storyboardc",
+      "numbers-tef",
+      "mindnode",
+      "pc3func",
+      "jpf",
+      "ccl",
+      "hptask",
+      "clipsproject",
+      "ofocus",
+      "effects",
+      "pbxproj",
+      "key",
+      "bbprojectd",
+      "docset",
+      "adiumicon",
+      "scn",
+      "lslibrary",
+      "wflow",
+      "icbu",
+      "favorite",
+      "scsf",
+      "nbn",
+      "sketchpad-flat",
+      "p7",
+      "bbpackage",
+      "ofocus-backup",
+      "kextcache",
+      "studydeck",
+      "opvault",
+      "ibooks",
+      "pkg",
+      "appex",
+      "mwand",
+      "kpf",
+      "framework",
+      "dist",
+      "definition",
+      "scene",
+      "simruntime",
+      "band",
+      "ibank",
+      "cbaccounts",
+      "clr",
+      "gstencil",
+      "gbproj",
+      "cplink",
+      "themepack",
+      "tmplugin",
+      "appdownload",
+      "monitor",
+      "chocoimg",
+      "acplugin",
+      "seemode",
+      "gradients",
+      "classagenda",
+      "colorpicker",
+      "download",
+      "dvdproj",
+      "pkpass",
+      "cpweb",
+      "layerstyles",
+      "mbornes",
+      "slidesaver",
+      "cannedsearch",
+      "saver",
+      "scptd",
+      "pbproj",
+      "pem",
+      "theme",
+      "webplugin",
+      "xib",
+      "spreporter",
+      "eyetvloc",
+      "dvdmedia",
+      "hvfproject",
+      "ani",
+      "pkcs12",
+      "pc3calc",
+      "apifile",
+      "loginplugin",
+      "cardsmbornes",
+      "ibplugin",
+      "bentotemplate",
+      "goodnotes",
+      "rcproject",
+      "linea",
+      "qtpxcomposition",
+      "wand",
+      "bentodb",
+      "xcprocessorusagepoint",
+      "embersnap",
+      "hypeplugin",
+      "ulproject",
+      "tka",
+      "evocamtimelapse",
+      "abbu",
+      "mproject",
+      "ptest",
+      "neunote",
+      "oplx",
+      "mindproj",
+      "xctoolchain",
+      "iwdgt",
+      "gspak",
+      "sfrframe",
+      "ipscannerlaunchextension",
+      "epub",
+      "ofocus-archive",
+      "webtheme",
+      "trace",
+      "theater",
+      "zfa",
+      "adiumserviceicons",
+      "vellum",
+      "shapes",
+      "ripit",
+      "template",
+      "textexpandersettings",
+      "adiumlisttheme",
+      "ibatemplate",
+      "xcplaygroundpage",
+      "ideplugin",
+      "mkext",
+      "webtemplate",
+      "quicken",
+      "tmbundle",
+      "qvnotebook",
+      "key-tef",
+      "spdoc",
+      "viennastyle",
+      "action",
+      "rdarplugin",
+      "simdevicetype",
+      "eyetvsched",
+      "pocketcasd",
+      "instrdst",
+      "patch",
+      "xcworkspace",
+      "lpdf",
+      "sites2",
+      "help",
+      "xcmappingmodel",
+      "p7b",
+      "agilekeychain",
+      "migratedphotolibrary",
+      "iwork-tmp",
+      "morphx",
+      "photoslibrary",
+      "lrdata",
+      "gchdb",
+      "ulysses",
+      "textbundle",
+      "dlist",
+      "fcarch",
+      "itlb",
+      "pdfd",
+      "mftpkg",
+      "lh3d",
+      "osax",
+      "photolibrary",
+      "comic",
+      "tkp",
+      "suggestionsassets",
+      "card",
+      "graffle",
+      "latexpalette",
+      "assembly",
+      "testrun",
+      "textexpanderalias",
+      "playgroundbook",
+      "mailstationery",
+      "incrementalbackup",
+      "wdgt",
+      "pages-tef",
+      "logarchive",
+      "pvback",
+      "rgd",
+      "huginautocp",
+      "gdiagramstyle",
+      "component",
+      "book",
+      "aplibrary",
+      "_ulstyle",
+      "npbackup",
+      "sketchpad-pkg",
+      "themembornes",
+      "radarplugin",
+      "xcdatamodel",
+      "xcode",
+      "xcsintegration",
+      "mpkg",
+      "keychain-db",
+      "soundsmbornes",
+      "eyetv",
+      "ppp",
+      "mpbinaries",
+      "octest",
+      "eomodeld",
+      "listtheme",
+      "tkv",
+      "dsclext",
+      "nib",
+      "p7m",
+      "pc3conv",
+      "avm",
+      "iba",
+      "lmnr",
+      "pvt",
+      "latexitplugin",
+      "kext",
+      "seplugin",
+      "ooxsl",
+      "app",
+      "ite",
+      "assistant",
+      "skypechatstyle",
+      "soundhoundbookmark",
+      "emberbackup",
+      "xctest",
+      "iwwebpackage",
+      "p7r",
+      "colloquystyle",
+      "dbwidget",
+      "hvpl",
+      "ilmbplugin",
+      "p7s",
+      "adiummessagestyle",
+      "itmsp",
+      "qvlibrary",
+      "appsnapshot",
+      "adiumlibpurpleplugin",
+      "migratedaplibrary",
+      "playground",
+      "xcresult",
+      "gputrace",
+      "textexpanderbackup",
+      "p10",
+      "pxd",
+      "cmm",
+      "ulbackup",
+      "xccrashpoint",
+      "colloquyemoticons",
+      "sites",
+      "ofocus-perspective",
+      "fex",
+      "discovery",
+      "scriv",
+      "nmbtemplate",
+      "p12",
+      "distz",
+      "cptext",
+      "menu",
+      "adiumplugin",
+      "xcyndicate",
+      "imovielibrary",
+      "xcsnapshots",
+      "nemolicense",
+      "prefpane",
+      "xcodeproj",
+      "kth",
+      "whink",
+      "tsp",
+      "xcplugin",
+      "photo",
+      "sdsp",
+      "1p4",
+      "adiumscripts",
+      "hype",
+      "keychain",
+      "oo3template",
+      "booktemplate",
+      "mqtz",
+      "adiumlistlayout",
+      "transport",
+      "itlp"
+    ]
+  },
+  "com.apple.findmy.fmfcore.notbackedup": {
+    "FMFGarbageCollectorIdentityKey": "22121631698"
+  },
+  "com.apple.findmy.fmipcore.notbackedup": {
+    "FMIPGarbageCollectorIdentityKey": "22121631698"
+  },
+  "com.apple.gamecenter": {
+    "GKMaxRecentPlayersTime": 314496000,
+    "GKUseTestProtocols": false,
+    "GKMaxRecentPlayersCount": 50
+  },
+  "com.apple.gms.availability": {
+    "com.apple.gms.availability.reasons": [
+      4,
+      6,
+      8,
+      9
+    ]
+  },
+  "com.apple.helpd": {
+    "PublicSpotlightIndex": true
+  },
+  "com.apple.homed": {},
+  "com.apple.homed.notbackedup": {},
+  "com.apple.iCal": {
+    "PrefMigrationSeed": 5,
+    "ShowDeclinedEvents": false,
+    "CALPrefLastTruthFileMigrationVersion": 1,
+    "kCalDBLastSpotLightIndexVersion": 23,
+    "BirthdayEventsGenerationLastLocale": "en_US@rg=chzzzz",
+    "enableTravelAdvisoriesForAutomaticBehavior": true,
+    "NotificationsLastLocale": "en_US@rg=chzzzz",
+    "NotificationSourceClientIdentifierVersion": 1,
+    "migrationAttempts": 0,
+    "BirthdayEventsGenerationAttemptsToResetKey": 0
+  },
+  "com.apple.iChat": {
+    "DidMarkGroupPhotosAsUnpurgeable": true,
+    "DidCheckForDuplicateChats": 4
+  },
+  "com.apple.iCloudNotificationAgent": {
+    "CKPerBootTasks": [
+      "CKAccountInfoCacheReset"
+    ],
+    "_ICQLegacyQuotaFollowupCleanup.2": true,
+    "CKStartupTime": 1730902691,
+    "com.apple.iCloudNotification.sessionUUID": "A9405C83-4A9D-4C58-9564-027FF5F6DE20"
+  },
+  "com.apple.iTunes": {},
+  "com.apple.icloud.fmfd.notbackedup": {
+    "kKeychainUtilMigrationVersionKey": 1
+  },
+  "com.apple.icloud.gm": {},
+  "com.apple.iclouddrive.features": {
+    "iCloudDrive-on-FPFS-last-boot-uuid": "62EB00AB-8E70-4043-A50B-EC6550B77389",
+    "iCloudDrive-on-FPFS": true,
+    "iCloudDrive-moved-to-FPFS": true,
+    "iCloudDrive-on-FPFS-last-boot-timestamp": 0
+  },
+  "com.apple.ids": {
+    "IDSKTAccountKeyFetchMetricDeviceIDExpirationDefault": 1730903870.357712,
+    "IDSKTAccountKeyFetchMetricDeviceIDDefault": "266FABDF-FF25-41C4-AB8F-5D0D0E15BBB6",
+    "SecondaryRegistrationDisabledDiceRoll": 52
+  },
+  "com.apple.ids.service.com.apple.private.alloy.safetymonitor": {},
+  "com.apple.ids.subservices": {},
+  "com.apple.imagecapture": {
+    "loggingLevel": 3073
+  },
+  "com.apple.imdpersistence.IMDPersistenceAgent": {
+    "LogAllIOErrors": true
+  },
+  "com.apple.imessage": {
+    "DisablePreviewTranscodingQualityOnWiFi": false,
+    "PreviewTranscodingQualityOnWiFiWasInitializedToDefaultValue": true,
+    "PreviewTranscodingEnabled": false,
+    "DidDoInitialDisableHashtagImages": true
+  },
+  "com.apple.imservice.ids.FaceTime": {
+    "ActiveAccounts": [],
+    "OnlineAccounts": []
+  },
+  "com.apple.imservice.ids.iMessage": {
+    "ActiveAccounts": [
+      "F470A9ED-226F-4B7D-92C8-667614889DBE"
+    ],
+    "OnlineAccounts": [
+      "F470A9ED-226F-4B7D-92C8-667614889DBE"
+    ]
+  },
+  "com.apple.ipTelephony": {
+    "ImsLoggingEnabled": true
+  },
+  "com.apple.itunescloud.daemon": {
+    "ICDDefaultsKeyKnowAccountDSIDs": [
+      "22121631698"
+    ],
+    "ICDDefaultsKeyKnownActiveAccountDSID": "22121631698"
+  },
+  "com.apple.java.util.prefs": {
+    "/": {
+      "JetBrains.UserIdOnMachine": "b1bddf79-6e61-4309-a8aa-a433645f28bf",
+      "jetbrains/": {
+        "region/": {},
+        "feature_usage_event_log_salt": "I+msOGQ22CP99+EK0qUhVLu4i+2ffOVEUXBVeY3H97g=",
+        "device_id": "07112424d3558eb-4b54-4d8b-83ec-c8dcb7a9427f",
+        "auth-tokens/": {
+          "account_jetbrains_com": "AAAFIL6lAC6wnGbdfzcZhWxVFLJE/ibveLT/ghpCTPlcm251OofMDRx7CdZCNnWyug0h5xndGuDY4WPFDCPsREypbq7ZvElYqF0qvzxk2rNwhj8x0r6FuBih0V3JlpYpwYaTnRxAJOSfi5EpK+io9tzsK6jmR/2zE3ICbvnVdgaPg80waiLBqMMpnbKronz4zeTp2MMlBSQzn0/uF+mIPxfOWNn71yMli6FwnDGBh7AUV2nls3/w9PzoqbFi95L5KM0OQqUbBLt/cl6nw0/+YpPp4jIpoQQHIUZbx7t/GGDYS0YsGLjqHdzB0rFCkfnSxG+M6+ZKIbSBDENNuar1fbZn+u+nRbluV+AaPGhmuiMA110SLP/nXy0WHBCcUIMid9OB+OhIQN6KP6HW6NitLWjGLoNZbh/8ShHvgeUW8Jbfe749E8S1QajNZs/IMklN3j6eQJLwY+WUEonskgynchsosJULsx3LyAb/Vsr2XV0SWQo5t1a+wpyAWffR6PDY8VCILZvSxFzI/d87sbecml0hfuJrTI+Essnqy4NfkpQs0RpsFoPLJX6VkmCIZbPhw4pK2cH3bMzYBtiO+0mJZ4/5ibNKJxZmvL7pcprJigHbVDNvAvuX1spmXn6u9SMziddPoDThZyjqIopna4971lWW38bGXa9N34yFOD6qVXfXDaF/4V6XbxZ0D0Yp653bX81SX54P32vcdooGy9hl22EOGfOtHgD7r7Ebq87UAOB/sKnmmhj08x5NWcRypcdOOPIBWZUq1wWgv/Hp/3SPjaHgawHXGYowJc2snDaQ86EnmjoeJzcHdi3rhZ/cBFaeayktoiEj19pNVYcggLqIZiTsEj64kcr1bZNKnTk9ZB3VMIXHQDTTORGkLf819JdUBhGdzAe1iTtPDypD94Q9DFEp2AT9bGbMv/XflPp+bSBZz3jESZ7wmxkBC6shyJ9rHcjTesXrlqBbiIHC6R0wIltDkFX4KMnGnNlVW5jPiTSIM8QTXTQpFX8WUV6FEFK/CyfTS/dll5knNlhNIOgwE5Nu2c+06PV0ughMrP3kji0BohMeXMlCSD/hH5/j4ZTLLIhBNtgo4gOg7X2LvH4LAnKojU0YqJc2Ng6IMHJH4Ow2zcOIqfmsnCmC34GYJAckgwB1xxWrSf32FLhEomGGZt39/ZPrp1+PhHxZg6SHn9BBjI6pUxIHmpiyujidCXZ/kpdfjLmNQb6iwQRLCcI7FoQuGYtFOXjuvxRvaF2efqwzJZ4CxigKj7gMAu1tYxgf8dPaRdvVfva915jyyel88qlV3FlUs2KW/KEGiJ3zneFzC1fqskQ59x0y9dArygGomcrWfchq59dg0MNpvs7vHyEACxQkhqSGYjTgiqK8B2iaa14vaI3t9Qb4nXo2jqAOLEWoL8uYtwbqQURgpeiBoD++c6YqjyIGOv5dlwQ1TLh/mUoRD6qxCHH6sdMQWMFeTt4kcnBSbDvf+RshkdVdsgTbMz30uVuxh/P/RKAle4ukRbZlhXxXCgBYb4eoTnGP/Ijf69vOabcDhFd2vdAndaljx/t20d/UpJV8M8MfboG43jYajd5whXzBxgURUcVxF5k1t6wJd90JC5XEDqFlbHLmGObytbSQAU34mkIFAaHqIhrSyS9HkJwA+HeiJ9UvxZuTYdGEiCtR7vdRZfJZGdtl8bbK5+65hF+3oGR0ccl/Lc1UuI7HbCbVIbo98GEgZNZI5McktKzv81GIjCSFkpYIhyFbJhpBj0UWwJXCaciczki5"
+        },
+        "jetprofile/": {
+          "userid": "bFEOWDNEA0ESEQAaTj0CBxQGHB9KNwULVg==",
+          "idtoken": "MREvSCY1Ch8qST48dT4sRysFJgNnORwVegc7Xz8LYkU2TTwVLx8DWj1EM1w/dCMLJzVVWToodiwp\r\nIjcEIjd3IDEyei8oKkcObg45TAkfPA0jOxcbGhIGSSIjRxMcahwLZn0KLz0iADlEOwErZQoTC0Q/\r\nViY4Zg0wIiheC0FeJTsiFTwXAjgodScmUw0IMFQ2LDkYAxEvUB41PB89cwMGeRwzRgQqVkBPA1kJ\r\naS4dETgfbQMgdCNXOTELFTxtHgQHdwICCzUsFj0BYigBPiwZNhkbJzE9ej0QWiwkekZeSCUyARA1\r\nXUlaHQESSR4qAQEsShsXbj4oASo4BAdgAA8fbAc4BBc9ag4LZn0QLzJdAzlEOwEwZxJCCh8sUz0C\r\nenUHMR0KDR1oIDI2aXI7BTQJRDwmRxAiMFcPAkkcHQESSSUlL0YsShsXbj4oASo4CEJhAA8fbAc4\r\nGRVWbR0gSQ4KEi0+GBNUOx4pEn0aDS43TzgCZi48RFxdDR5/IQkIdnQrBzwNQSNaWggIOBMOPEhH\r\nGCsvUR0fLxAHZ00BQRNRHyoFJRp3AxARQxwkARQLcjU1EnUNFzIbGikcbRwsSTMbCBg3UD0FTy0q\r\nMiBZNTdoOCVXeTA/BCwJbzdfEB0yM1QgOxtWDjw0VB0mJxs8dyIEbnY3Gys7JRhnPR8MQgM0ExIj\r\nGQE2d3UJPw8DBiRpEloGTX1AIB8SSRYoTDEERDMHN0J4IDEyTDcRED9Td0VfUw0LPA0ILDkYGTwG\r\nWgk2AkIrSh9bbQcSHwZeAxtnPgcMehAaADgIdQ02Sg0ROA8qAyptZFg/TQFDJSEgEDk7bTAoMTcA\r\nISd4PCUhciwrAywMaR0YSSdWIAwlBR9HGTwsEgk2MAwoSjEGbAcvRwZeOQl2ZgQOaS4dADkhTAYK\r\naCdXFw8IXD12BlkHTigcCi4jURddGS88RFQZCxlkbUYvVxYUEx9dfyIiVTQrGAkiQkV7PzEQQTwe\r\nODgtVTg5aBI1AiJbIEFKeSk6SixFREI1TCI4diAXRxVcXx1JMTcWWA4CBwcfbREganABPV1ULSp9\r\nIT80Rx4BMA82DSwrWTRcHjokBRhBPx8gcA8kDCMOaiEoFxEARSIiA11xZiACcyc7GwUtch9eeggU\r\nGi0gDgpgZVg1YSU4EBE9cUwlUTJVAy1YOQR8HzwpZhYICE8wWhVbQTQtEwMcLEBEZF4IcBIgPzwK\r\nSS5CEAYzAVMgGyRAET8heHQTEw5ccEFbbwMGNBEmJikfYTFUbDQiWRoufx1WTTwwElxbXThAMSIp\r\nWCkWPQMCdEYGYgYIARQpGi9IYzAJGDIYBx4wYyZYFCIiBCEJDDNEYDsGQ3M6ASwCSSw3eQcPHlE+\r\nMDplNy49FxcAXwAPcg0bdwwIQwkZDCR9bEUMVw8nMBA8cTdeGCYOAT0IWh1nZQ08T3AwGUJQVkwi\r\nRQwBJQ8iOCd9PhELRXI8LhIcSA4KTRMqPjUZDRF8Yj9WaXwiOgcpRh5XUBApHC0tOTR4NV0WFBsf\r\nXEcwEExCcR5ULBwdFxFxZidUeCEGESwfckc5Yw8gJjYmIht7Z0U/cCFHGz4QT0JXVSYVJRMZATtv\r\nLSwODTcRM0ZTZUAHGBIiDhwHDhhqeToAFyAQOUY9cAdCdCMDRBwbNhlbMy1TQxY1CxQWEy0/Fygs\r\nPyoFOTdaNgwUeS1CDh5cYSADSjAcT1ZYV0VsNwM2bxM/BhEvYh8begc/LwwLBj5EBEUgdRAUCyc1\r\nT0dWSykNGAw+JjVoBQMkcg85KkIBbiQHciwyNzRfOTYaJSoQUHABWhcoaB0kSj4VJhUqDRtoOQkn\r\nSAkAG0EgFwFeWRQ3EQwOLEhnYCMxZDdAJAM1cTo7Rw==",
+          "userlogin": "NwkJTTUHCBgRYBMCQS0JWAYDAg==",
+          "asset/": {}
+        },
+        "user_id_on_machine": "b1bddf79-6e61-4309-a8aa-a433645f28bf",
+        "privacy_policy/": {
+          "eua_accepted_version": "1.6"
+        }
+      }
+    }
+  },
+  "com.apple.lighthouse.pnr.PnROnDeviceWorker": {},
+  "com.apple.loginwindow": {
+    "oneTimeSSMigrationComplete": true
+  },
+  "com.apple.madrid": {
+    "IMCloudKitStartingInitialSync": false,
+    "CloudKitIsRemovedFromBackup": false,
+    "IMCKRampState": {
+      "FetchHadServerError": false,
+      "FeaturePromoted": false
+    },
+    "CloudKitIsEligibleForTruthZone": true,
+    "CloudKitEligibleToToggleMiCSwitch": true,
+    "IMCloudKitSyncControllerSyncTypeKey": 0,
+    "CloudKitCheckedMiCSwitchEligibilityOnImagentLaunch": true,
+    "IMCloudKitSyncErrors": [
+      {
+        "IMSerializedErrorCodeKey": 0,
+        "IMSerializedErrorDomainKey": "MessagesCloudSync.SyncCoordinatorError",
+        "IMSerializedErrorUserInfoKey": {}
+      }
+    ],
+    "IMCloudKitSyncCancelled": false,
+    "CloudKitSyncingEnabled": false,
+    "IMCloudKitSyncControllerSyncRecordTypeKey": 0,
+    "IMCloudKitSyncJobStateKey": 0,
+    "IMCloudKitStartingPeriodicSync": false,
+    "IMCloudKitSyncControllerSyncStateKey": 0,
+    "IMCloudKitSyncPaused": false,
+    "IMCloudKitSyncTypeKey": 2,
+    "MiCDeviceIdentifier": "8280A33D-3BA4-4718-B01A-A51D105A012C",
+    "initialSyncRecordHasBeenWritten": true,
+    "IMCloudKitAccountStatusKey": 4,
+    "IMCloudKitStartingEnabledSettingChange": false,
+    "CloudKitHasAvailableRecordsToDownload": false,
+    "DonatedRecentLiteHandles": true,
+    "IMCloudKitStartingDisableDevices": false,
+    "IMCloudKitSyncStatusKey": 0,
+    "hadPriorPrefs": false,
+    "CloudKitLastDownloadProgress": 0,
+    "oneTimeMOCAccountCheckV2": true
+  },
+  "com.apple.mediaaccessibility": {
+    "MADisplayFilterGrayscaleCorrectionIntensity": 0.76424485445022583,
+    "__Color__-MADisplayFilterCategoryEnabled": 1,
+    "__Color__-MADisplayFilterType": 1
+  },
+  "com.apple.menuextra.clock": {
+    "ShowDate": 0,
+    "ShowDayOfWeek": true,
+    "ShowAMPM": true
+  },
+  "com.apple.messages.nicknames": {
+    "NicknameScrutinyDoNotHandle": false,
+    "ReuploadLocalNicknamesVersion": 1,
+    "NicknameiCloudAccountSignedInStatusKey": true
+  },
+  "com.apple.metrickitd": {
+    "MXClientTeamID": {}
+  },
+  "com.apple.mlhost": {
+    "cloud.lastSuccessTimestamp": 752672298.76924896,
+    "telemetry.lastTimestamp": 752630400
+  },
+  "com.apple.mlhost.CloudWorker": {
+    "CKPerBootTasks": [
+      "CKAccountInfoCacheReset"
+    ],
+    "CKStartupTime": 1730902691
+  },
+  "com.apple.mmcs": {
+    "report.ReportLevels": {
+      "vendor.dc.configuration.apple": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 180000,
+        "connection.max.requests": -1
+      },
+      "putcomplete.verbosity.0": {
+        "vendor.headers.on.success": [
+          "Content-MD5",
+          "ETag",
+          "x-emc-content-checksum",
+          "x-apple-edge-info",
+          "x-apple-receipt",
+          "x-apple-put-complete-response",
+          "x-apple-direct-lookup-address",
+          "x-apple-store-id"
+        ],
+        "client.error.on.failure": true,
+        "vendor.url": true,
+        "vendor.response.code": true,
+        "status.line.on.failure": true,
+        "vendor.headers.on.failure": [
+          "x-amz-id-2",
+          "x-amz-request-id",
+          "Server",
+          "X-GUploader-UploadID",
+          "x-ms-request-id",
+          "x-icloud-versionid",
+          "location",
+          "x-apple-put-complete-response"
+        ]
+      },
+      "vendor.dc.configuration.ms_ap_sin": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 45000,
+        "throughput.min": {
+          "in.seconds": 60,
+          "num.bytes": 104448
+        },
+        "connection.max.requests": -1
+      },
+      "vendor.dc.configuration.s3_us_ore": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 1000,
+        "throughput.min": {
+          "in.seconds": 30,
+          "num.bytes": 16384
+        },
+        "connection.max.requests": 100
+      },
+      "vendor.dc.configuration.ms_us_dmx": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 45000,
+        "throughput.min": {
+          "in.seconds": 60,
+          "num.bytes": 104448
+        },
+        "connection.max.requests": -1
+      },
+      "chunker.allow.item.chunk.length.28455742": true,
+      "vendor.dc.configuration.gcs_eu": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 180000,
+        "connection.max.requests": -1
+      },
+      "vendor.dc.configuration.s3_us_nca": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 1000,
+        "throughput.min": {
+          "in.seconds": 30,
+          "num.bytes": 16384
+        },
+        "connection.max.requests": 100
+      },
+      "auth.simulcast.response.signing.key.public.current": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAocv/GNpYVOMkps9l8bGHZH8JvMEFQavMbuRpHNch+VpT7abwkns3kA7SnvG6Lv37ko5OkTLJc5ZmtO7fkbonw==",
+      "vendor.dc.configuration.ms_eu_ams": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 45000,
+        "throughput.min": {
+          "in.seconds": 60,
+          "num.bytes": 104448
+        },
+        "connection.max.requests": -1
+      },
+      "getcomplete.verbosity.1": {
+        "vendor.response.code": true,
+        "client.error.on.failure": true,
+        "status.line.on.failure": true,
+        "client.kpis": [
+          "cachingServer.used",
+          "cachingServer.bytes"
+        ],
+        "vendor.headers.on.failure": [
+          "x-amz-id-2",
+          "x-cache",
+          "x-amz-request-id",
+          "Server",
+          "X-GUploader-UploadID",
+          "x-ms-request-id",
+          "x-icloud-versionid",
+          "location"
+        ],
+        "vendor.headers.on.success": [
+          "x-cache"
+        ],
+        "vendor.url": true
+      },
+      "vendor.dc.configuration.ms_us_mtv": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 45000,
+        "throughput.min": {
+          "in.seconds": 60,
+          "num.bytes": 104448
+        },
+        "connection.max.requests": -1
+      },
+      "send.header.plist.sha256": true,
+      "vendor.dc.configuration.s3_eu_irl": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 1000,
+        "throughput.min": {
+          "in.seconds": 30,
+          "num.bytes": 16384
+        },
+        "connection.max.requests": 100
+      },
+      "auth.simulcast.response.signing.key.public.prior": "",
+      "vendor.dc.configuration.ms_us_bnx": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 45000,
+        "throughput.min": {
+          "in.seconds": 60,
+          "num.bytes": 104448
+        },
+        "connection.max.requests": -1
+      },
+      "vendor.dc.configuration.ms_us_chi": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 45000,
+        "throughput.min": {
+          "in.seconds": 60,
+          "num.bytes": 104448
+        },
+        "connection.max.requests": -1
+      },
+      "putcomplete.verbosity.1": {
+        "vendor.kpis": [
+          "contentlength.bytes",
+          "vendor.roundtrip.millis"
+        ],
+        "client.kpis": [
+          "cachingServer.used",
+          "cachingServer.bytes"
+        ]
+      },
+      "echo.header.plist.version": "v1.0",
+      "max.vendor.download.connections": 20,
+      "vendor.dc.configuration.gcs_asia": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 180000,
+        "connection.max.requests": -1
+      },
+      "getcomplete.verbosity.2": {
+        "vendor.kpis": [
+          "contentlength.bytes",
+          "vendor.roundtrip.millis",
+          "vendor.send.bytes",
+          "vendor.recv.bytes",
+          "vendor.network.interface",
+          "vendor.nameresolution.millis",
+          "vendor.average.roundtrip.millis",
+          "vendor.request.qos",
+          "vendor.nameresolution.didUseProvidedServerAddress",
+          "vendor.nameresolution.serverAddress"
+        ],
+        "client.kpis": [
+          "authorizeGetForFiles.millis"
+        ]
+      },
+      "vendor.dc.configuration.ms_us_sat": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 45000,
+        "throughput.min": {
+          "in.seconds": 60,
+          "num.bytes": 104448
+        },
+        "connection.max.requests": -1
+      },
+      "max.vendor.upload.connections": 2,
+      "vendor.dc.configuration.ms_ap_hkg": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 45000,
+        "throughput.min": {
+          "in.seconds": 60,
+          "num.bytes": 104448
+        },
+        "connection.max.requests": -1
+      },
+      "vendor.dc.configuration.s3_ap_sin": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 1000,
+        "throughput.min": {
+          "in.seconds": 30,
+          "num.bytes": 16384
+        },
+        "connection.max.requests": 100
+      },
+      "vendor.body.max.bytes.on.failure.internal": 512,
+      "vendor.dc.configuration.ms_us_sjc": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 45000,
+        "throughput.min": {
+          "in.seconds": 60,
+          "num.bytes": 104448
+        },
+        "connection.max.requests": -1
+      },
+      "vendor.dc.configuration.gcs_us": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 180000,
+        "connection.max.requests": -1
+      },
+      "vendor.dc.configuration.ms_eu_dub": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 45000,
+        "throughput.min": {
+          "in.seconds": 60,
+          "num.bytes": 104448
+        },
+        "connection.max.requests": -1
+      },
+      "getcomplete.verbosity.0": {
+        "vendor.headers.on.success": [
+          "x-apple-edge-info",
+          "x-cache"
+        ]
+      },
+      "chunker.max.fixed.length": 33554432,
+      "putcomplete.verbosity.2": {
+        "vendor.kpis": [
+          "vendor.send.bytes",
+          "vendor.recv.bytes",
+          "vendor.network.interface",
+          "vendor.nameresolution.millis",
+          "vendor.average.roundtrip.millis",
+          "vendor.request.qos",
+          "vendor.nameresolution.didUseProvidedServerAddress",
+          "vendor.nameresolution.serverAddress"
+        ],
+        "client.kpis": [
+          "chunking.time.millis",
+          "authorizePut.millis"
+        ]
+      },
+      "vendor.dc.configuration.s3_us_std": {
+        "retry.get.http_response_code": "500,503,504",
+        "retry.post.http_response_code": "500,503,504",
+        "retry.put.http_response_code": "500,503,504",
+        "connection.max.idle.millis": 1000,
+        "throughput.min": {
+          "in.seconds": 30,
+          "num.bytes": 16384
+        },
+        "connection.max.requests": 100
+      }
+    },
+    "report.LastFailedCheckDate": "01/01/2001, 01:00:00.0000",
+    "report.LastSuccessfulCheckTime": 752685056.45615995,
+    "report.LastSuccessfulCheckDate": "11/07/2024, 16:10:56.4560",
+    "report.TTL": 3600,
+    "report.sha256": "fvj0Y/Ybu1pq0r4NxXw3eP51exujUkEAd7LllbkTdK8="
+  },
+  "com.apple.mobileipod": {
+    "EnhancedAudioAvailable": false
+  },
+  "com.apple.mobiletimer": {},
+  "com.apple.notificationcenterui": {
+    "widgets": {
+      "vers": 1
+    },
+    "last-analytics-stamp": 752596627.80219495
+  },
+  "com.apple.onetimepasscodes": {
+    "DeleteVerificationCodes": false
+  },
+  "com.apple.parsecd": {
+    "PARDefaultsVersion": 5,
+    "download_resources": {
+      "silhouette_whitelisted_topics": {
+        "url": "https://cdn.smoot.apple.com/static/silhouette_whitelisted_topics/5/silhouette_whitelisted_topics?version=5"
+      },
+      "spotlight_stopword.map": {
+        "url": "https://cdn.smoot.apple.com/static/spotlight_suggestions_stopwords/4/stopwords-en.map?version=4"
+      },
+      "autofill_tld_whitelist_url": {
+        "url": "https://cdn.smoot.apple.com/static/autofill_tld_whitelist_url?version=d82910c408523dcb3cfb020124f6e8b9"
+      },
+      "dictionary_resources_url": {
+        "url": "https://cdn.smoot.apple.com/static/dictionary_resources_url?version=d4546b111e90a1d7005fa43d34bd2f7b"
+      },
+      "installed_app_whitelist_url": {
+        "url": "https://cdn.smoot.apple.com/static/installed_app_whitelist_url?version=d952ed940d15e278436dce7b92f002bd"
+      },
+      "crowdsourcing_blacklist_url": {
+        "url": "https://cdn.smoot.apple.com/static/crowdsourcing_blacklist_url?version=2ca06afd0850f1f42695f6b6928dc0f4"
+      },
+      "spotlight_phrase_dictionary.map": {
+        "url": "https://cdn.smoot.apple.com/static/spotlight_suggestions_phrase_dictionary/4/phrase-dictionary-en-US.map?version=4"
+      },
+      "silhouette_topic_mapping": {
+        "url": "https://cdn.smoot.apple.com/static/silhouette_topic_mapping/5/silhouette_topic_mapping?version=5"
+      },
+      "silhouette_config": {
+        "url": "https://cdn.smoot.apple.com/static/silhouette_config/5/silhouette_config?version=5"
+      },
+      "correction_dict_url": {
+        "url": "https://cdn.smoot.apple.com/static/static_corrections_dict/20200930/static_corrections_dict.json?version=20200930"
+      },
+      "crowdsourcing_whitelist_url": {
+        "url": "https://cdn.smoot.apple.com/static/crowdsourcing_whitelist_url?version=032857ed01170d11e723650d446758bd"
+      },
+      "spotlight_model_resources": {
+        "url": "https://cdn.smoot.apple.com/static/spotlight_model_resources/2/spotlight_ml.mpak?version=2"
+      }
+    }
+  },
+  "com.apple.passd.class-d": {
+    "secure-element-passes-available": false
+  },
+  "com.apple.photoanalysisd": {
+    "KnownResources": {
+      "photoLibrary@/Users/petr/Pictures/Photos Library.photoslibrary": {
+        "version": 1,
+        "resourcePath": "/Users/petr/Pictures/Photos Library.photoslibrary/",
+        "resourceType": "photoLibrary"
+      }
+    },
+    "PHALastSettingsReportMonth": 11,
+    "PHAWallpaperSuggestionGenerationWeeklyTaskLibraryIsProcessedEnoughForAmbient": true,
+    "PHAWallpaperSuggestionGenerationWeeklyTaskLibraryIsProcessedEnough": false
+  },
+  "com.apple.quicklook.ThumbnailsAgent": {
+    "QLMTCacheSizeLastCheckAbsoluteTime": 752683117.02385497
+  },
+  "com.apple.rapport": {
+    "frPruneLastSecs": 752683288.41394699,
+    "familySyncedName": "Petr’s MacBook Pro",
+    "pdFriendSyncStart": 752781526.67891598
+  },
+  "com.apple.registration": {},
+  "com.apple.remindd.babysitter": {
+    "FailedWaiters": {},
+    "RestrictedWaiters": {},
+    "LastSystemVersion": "24A348",
+    "RefreshingWaiters": {}
+  },
+  "com.apple.replayd": {
+    "kSCDeviceUniqueID": "15145BEB-5CD2-4326-A48B-B4832CB60340"
+  },
+  "com.apple.screencapture": {
+    "last-analytics-stamp": 752597068.32099199
+  },
+  "com.apple.screensaver": {
+    "tokenRemovalAction": 0
+  },
+  "com.apple.scriptmenu": {
+    "ScriptMenuEnabled": false
+  },
+  "com.apple.security.cloudkeychainproxy3.keysToRegister": {
+    "EnsurePeerRegistration": false,
+    "DSID": "",
+    "KeyAccountUUID": "D0A9EFA7-CA0F-488E-9FB0-0A99D1588810",
+    "SyncPeerIDs": [],
+    "PendingKeys": [
+      "^OfficialDSID",
+      ">KeyParameters",
+      "dbg-Scope"
+    ],
+    "AlwaysKeys": [
+      "^OfficialDSID",
+      ">KeyParameters",
+      "dbg-Scope"
+    ],
+    "FirstUnlockKeys": [],
+    "SyncBackupPeerIDs": [],
+    "UnlockedKeys": []
+  },
+  "com.apple.security.ctkd-db": {
+    "classes": {
+      "com.apple.pivtoken": "D0159114-58C9-5DF9-8475-4D52496D8080",
+      "com.apple.ctkcard": "451DE7AE-A56C-577A-BA8D-46FBB964AB68",
+      "com.apple.platformsso": "06FB74DC-9381-5125-BCDC-ED6EDFCBAAEE"
+    }
+  },
+  "com.apple.seeding": {
+    "DeviceIdentifier": "3E36631D-011D-46BC-A781-7FEB2D418D9E",
+    "HasRunMigration": true
+  },
+  "com.apple.seserviced": {
+    "sekeysyncmanager.bootsessionuuid": "A9405C83-4A9D-4C58-9564-027FF5F6DE20"
+  },
+  "com.apple.siri.VoiceShortcuts": {
+    "VCLSDatabaseUUIDKey": "1867B15C-091C-4010-AB4E-6358A71063C4",
+    "VCLSDataSequenceKey": 2994
+  },
+  "com.apple.siri.context.service": {},
+  "com.apple.siri.morphun": {
+    "subscriptions": {
+      "subscriptions": {
+        "assistantd": [
+          "en"
+        ]
+      }
+    }
+  },
+  "com.apple.siri.shortcuts": {
+    "WFDidUnconflictShortcuts": true,
+    "ShareSheetShortcutsPresent": false,
+    "WFInitialBiomeStreamWritesKey": true
+  },
+  "com.apple.siri.sirisuggestions": {
+    "osInstalledDates": {
+      "15.0": 752596625.60794997
+    }
+  },
+  "com.apple.sms": {
+    "hasMigratedSMSRelayForMIC": true
+  },
+  "com.apple.spaces": {
+    "SpacesDisplayConfiguration": {
+      "Management Data": {
+        "Monitors": [
+          {
+            "Current Space": {
+              "id64": 1,
+              "ManagedSpaceID": 1,
+              "type": 0,
+              "uuid": ""
+            },
+            "Spaces": [
+              {
+                "id64": 1,
+                "ManagedSpaceID": 1,
+                "type": 0,
+                "uuid": ""
+              },
+              {
+                "id64": 107,
+                "ManagedSpaceID": 107,
+                "type": 0,
+                "uuid": "F3145B3D-05F7-4677-8DB2-89A61E5A46CD"
+              },
+              {
+                "id64": 116,
+                "ManagedSpaceID": 116,
+                "type": 0,
+                "uuid": "6F2C33C5-B6C7-4065-B015-077B692ACFF7"
+              }
+            ],
+            "Display Identifier": "Main"
+          }
+        ],
+        "Age": 40181.145247333348,
+        "Primary": {
+          "LifetimeMax": 0,
+          "LifetimeMin": 0,
+          "LifetimeEntryCount": 0,
+          "CreatedCount": 0,
+          "LifetimeSum": 0,
+          "PersistedCount": 0,
+          "DeletedCount": 0
+        },
+        "Secondary": {
+          "LifetimeMax": 0,
+          "LifetimeMin": 0,
+          "LifetimeEntryCount": 0,
+          "CreatedCount": 0,
+          "LifetimeSum": 0,
+          "PersistedCount": 0,
+          "DeletedCount": 0
+        },
+        "Management Mode": 1
+      },
+      "Space Properties": [
+        {
+          "name": "",
+          "windows": [
+            6911,
+            7223,
+            8367,
+            8369,
+            8365,
+            5687,
+            8035,
+            8026,
+            6151,
+            6474,
+            6036,
+            6868,
+            6925,
+            7258,
+            7087,
+            5677,
+            6918,
+            169,
+            101,
+            7224,
+            7639
+          ]
+        },
+        {
+          "name": "F3145B3D-05F7-4677-8DB2-89A61E5A46CD",
+          "windows": [
+            6911,
+            101,
+            7643,
+            5711,
+            7644
+          ]
+        },
+        {
+          "name": "6F2C33C5-B6C7-4065-B015-077B692ACFF7",
+          "windows": [
+            6911,
+            101,
+            7958,
+            7959
+          ]
+        }
+      ]
+    }
+  },
+  "com.apple.speech.recognition.AppleSpeechRecognition.prefs": {
+    "DictationIMUpgradedTo10_15": true,
+    "VisibleNetworkSRLocaleIdentifiers": {
+      "en_US": 1,
+      "ru_RU": 1
+    },
+    "DictationIMUpgradedTo10_16": true
+  },
+  "com.apple.spotlightknowledge": {
+    "SpotlightKnowledgeV2": {
+      "sessions": [],
+      "graphVersionV2": 26,
+      "stats": [
+        "08.11.2024:people indexing all done:25",
+        "08.11.2024:currentPid:2"
+      ],
+      "version": "V2"
+    }
+  },
+  "com.apple.stocks.account": {},
+  "com.apple.stocks.stockskit": {
+    "user_id": "F0E02F5D-D3AA-4C2D-ADF5-4E2CACA3B829"
+  },
+  "com.apple.stocks2": {
+    "user_id": "F0E02F5D-D3AA-4C2D-ADF5-4E2CACA3B829"
+  },
+  "com.apple.studentd": {
+    "LastDateProviderSessionToken": "1730902691",
+    "DeviceIdentifier": "1D7CCF48-A4EF-42F4-80F1-83D1E7B15608"
+  },
+  "com.apple.symbolichotkeys": {
+    "AppleSymbolicHotKeys": {
+      "25": {
+        "enabled": false
+      },
+      "18": {
+        "enabled": false
+      },
+      "26": {
+        "enabled": false
+      },
+      "19": {
+        "enabled": false
+      },
+      "79": {
+        "enabled": true
+      },
+      "64": {
+        "enabled": false,
+        "value": {
+          "type": "standard",
+          "parameters": [
+            32,
+            49,
+            1048576
+          ]
+        }
+      },
+      "65": {
+        "enabled": false,
+        "value": {
+          "type": "standard",
+          "parameters": [
+            32,
+            49,
+            1572864
+          ]
+        }
+      },
+      "20": {
+        "enabled": false
+      },
+      "80": {
+        "enabled": true
+      },
+      "21": {
+        "enabled": false
+      },
+      "81": {
+        "enabled": true
+      },
+      "22": {
+        "enabled": false
+      },
+      "15": {
+        "enabled": false
+      },
+      "82": {
+        "enabled": true
+      },
+      "60": {
+        "enabled": true,
+        "value": {
+          "type": "standard",
+          "parameters": [
+            32,
+            49,
+            262144
+          ]
+        }
+      },
+      "16": {
+        "enabled": false
+      },
+      "23": {
+        "enabled": false
+      },
+      "164": {
+        "enabled": false,
+        "value": {
+          "type": "standard",
+          "parameters": [
+            65535,
+            65535,
+            0
+          ]
+        }
+      },
+      "61": {
+        "enabled": true,
+        "value": {
+          "type": "standard",
+          "parameters": [
+            32,
+            49,
+            786432
+          ]
+        }
+      },
+      "17": {
+        "enabled": false
+      },
+      "24": {
+        "enabled": false
+      }
+    }
+  },
+  "com.apple.systempreferences": {
+    "ThirdPartyCount": 0
+  },
+  "com.apple.systempreferences.SpotlightIndexExtension": {
+    "ThirdPartyCount": 0
+  },
+  "com.apple.systemsettings.extensions": {
+    "version": 1,
+    "osVersion": "15-0",
+    "sessionUUID": "AD24CBCA-B6B4-4504-9832-3857E0E9DF33",
+    "cs-indexing done": true,
+    "LastIndexed": {
+      "com.apple.Game-Controller-Settings.extension": "aba59f559682f832eb4e63be08423a1e",
+      "com.apple.Battery-Settings.extension": "71d8c4781484a9494d92ed4a75f29c7e",
+      "com.apple.CD-DVD-Settings.extension": "a222cff6cd5c712885580ac94760c7d2",
+      "com.apple.Touch-ID-Settings.extension": "974b799fe72d1c330663142f4705deb6",
+      "com.apple.ClassKit-Settings.extension": "0e3bd47256ba93f644f52be08079c9fb",
+      "com.apple.Trackpad-Settings.extension": "df07588b678c9f076ed8a646ed32cfac",
+      "com.apple.Mouse-Settings.extension": "0ab66ee15bae3a7b1315112481f76732"
+    },
+    "current_state": {
+      "device.cddvd": false,
+      "device.mouse": true,
+      "device.touchID": true,
+      "user.isguest": false,
+      "supports.systemAssistantExperience": false,
+      "powersource.battery": true,
+      "device.trackpad": true
+    }
+  },
+  "com.apple.systemuiserver": {
+    "__NSEnableTSMDocumentWindowLevel": true,
+    "last-analytics-stamp": 752597068.57229102
+  },
+  "com.apple.tokengeneration": {},
+  "com.apple.triald": {
+    "CKPerBootTasks": [
+      "CKAccountInfoCacheReset"
+    ],
+    "CKStartupTime": 1730902691
+  },
+  "com.apple.universalaccess": {
+    "sessionChange": false,
+    "customFonts": false,
+    "grayscale": true,
+    "grayscaleMigrated": true,
+    "com.apple.custommenu.apps": [
+      "NSGlobalDomain"
+    ],
+    "login": false,
+    "closeViewHotkeysEnabled": false,
+    "closeViewZoomFactor": 1,
+    "FontSizeCategory": {
+      "com.apple.stocks": "UseGlobal",
+      "global": "DEFAULT",
+      "com.apple.iBooksX": "UseGlobal",
+      "com.apple.MobileSMS": "UseGlobal",
+      "com.apple.iCal": "UseGlobal",
+      "com.apple.finder": "UseGlobal",
+      "version": "3.0",
+      "com.apple.Notes": "UseGlobal",
+      "com.apple.mail": "UseGlobal",
+      "com.apple.weather": "UseGlobal"
+    },
+    "History": {
+      "MouseKeys": [
+        {
+          "Reason": "Reset",
+          "Date": "2024-11-06 06:37:01",
+          "State": false
+        },
+        {
+          "Reason": "Reset",
+          "Date": "2024-11-06 06:37:04",
+          "State": false
+        },
+        {
+          "Reason": "Reset",
+          "Date": "2024-11-06 06:37:04",
+          "State": false
+        },
+        {
+          "Reason": "Reset",
+          "Date": "2024-11-06 15:44:23",
+          "State": false
+        },
+        {
+          "Reason": "Reset",
+          "Date": "2024-11-06 15:44:30",
+          "State": false
+        },
+        {
+          "Reason": "Reset",
+          "Date": "2024-11-06 15:44:30",
+          "State": false
+        }
+      ]
+    },
+    "hudNotifiedConstrast": 0,
+    "closeViewZoomDisplayID": 0
+  },
+  "com.apple.universalaccessAuthWarning": {
+    "/Applications/Bartender 5.app": true,
+    "3::com.google.Chrome": true,
+    "/Applications/Raycast.app/Contents/MacOS/Raycast": true,
+    "com.raycast.macos": true,
+    "2::/nix/store/6lid9gyd50qbni4ysrnivaxcglkfa8ni-karabiner-elements-14.13.0/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber": true,
+    "3::/Applications/Bartender 5.app/Contents/MacOS/Bartender 5": true,
+    "3::com.surteesstudios.Bartender": true,
+    "3::/Applications/Google Chrome.app": true,
+    "3::/Applications/Bartender 5.app": true,
+    "/Applications/Bartender 5.app/Contents/MacOS/Bartender 5": true,
+    "3::/Applications/Google Chrome.app/Contents/MacOS/Google Chrome": true,
+    "2::/nix/store/6lid9gyd50qbni4ysrnivaxcglkfa8ni-karabiner-elements-14.13.0/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_observer": true,
+    "com.surteesstudios.Bartender": true,
+    "/Applications/Raycast.app": true
+  },
+  "com.apple.voiceservices": {
+    "subscribedAssets": {}
+  },
+  "com.apple.voicetrigger": {
+    "UserPreferredVoiceTriggerPhraseType": 1
+  },
+  "com.apple.voicetrigger.notbackedup": {
+    "Power Logging Current Language": "en-US",
+    "Power Logging Current Asset Config Version": "15.1019.Premium"
+  },
+  "com.apple.wallpaper": {
+    "SonomaFirstRunMigrationPerformed": true,
+    "SystemWallpaperURL": "file:///System/Library/Desktop%20Pictures/.wallpapers/Sequoia%20Sunrise/Sequoia%20Sunrise.mov"
+  },
+  "com.apple.wifi.WiFiAgent": {
+    "UserDismissedLimitedNetworkFirstJoins": {
+      "laughraw_new": "laughraw_new"
+    }
+  },
+  "com.google.Chrome": {
+    "LastRunAppBundlePath": "/Applications/Google Chrome.app"
+  },
+  "com.google.Keystone.Agent": {
+    "checkInterval": 18000
+  },
+  "com.jetbrains.toolbox": {
+    "NSStatusItem Preferred Position Item-0": 5439
+  },
+  "com.openai.chat.RemoteFeatureFlags": {},
+  "com.openai.chat.RemoteFeatureFlags.c9b5a048-c738-493d-85d1-a55d6ab8e70e": {
+    "AppleShowAllExtensions": true,
+    "NSUsesCFStringTokenizerForLineBreaks": true,
+    "com.apple.trackpad.forceClick": true,
+    "NSSpellCheckerDictionaryContainerTransitionComplete": true,
+    "NSUsesTextStylesForLineBreaks": true,
+    "shouldShowRSVPDataDetectors": false,
+    "com.apple.trackpad.rotateGesture": true,
+    "account_feature_flag_cache_migration_completed": true,
+    "searchTool": true,
+    "memoryAvailable": true,
+    "com.apple.trackpad.pinchGesture": true,
+    "METAL_DEVICE_WRAPPER_TYPE": false,
+    "disableUpgradeUI": false,
+    "voiceAdvancedGa": true,
+    "com.apple.trackpad.threeFingerDragGesture": false,
+    "NSEnableAppKitMenus": true,
+    "TISRomanSwitchState": true,
+    "disableModelUpsell": false,
+    "AKLastIDMSEnvironment": false,
+    "NSHyphenatesAsLastResort": true,
+    "com.apple.springing.enabled": true,
+    "whisperKillswitch": false,
+    "com.apple.trackpad.threeFingerTapGesture": false,
+    "NSAutomaticCapitalizationEnabled": true,
+    "NSApplicationCrashOnExceptions": true,
+    "com.apple.sound.beep.flash": false,
+    "NSScrollAnimationEnabled": true,
+    "com.apple.trackpad.enableSecondaryClick": true,
+    "NSAutomaticPeriodSubstitutionEnabled": true,
+    "com.apple.trackpad.twoFingerDoubleTapGesture": true,
+    "com.apple.trackpad.momentumScroll": true,
+    "AppleTextDirection": false,
+    "AppleMiniaturizeOnDoubleClick": false
+  },
+  "com.openai.chat.StatsigService": {
+    "planType": "plus",
+    "accountID": "c9b5a048-c738-493d-85d1-a55d6ab8e70e",
+    "userID": "user-tQo8Ac48GFmiD51qBARiIqz9",
+    "userEmail": "petr.b.lavrov@gmail.com"
+  },
+  "com.tinyspeck.slackmacgap": {
+    "NSFullScreenMenuItemEverywhere": false,
+    "AppleTextDirection": true,
+    "NSForceRightToLeftWritingDirection": false,
+    "NSTreatUnknownArgumentsAsOpen": "NO"
+  },
+  "dev.warp.Warp-Stable": {
+    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-11-10T00:34:29.440073Z\",\"is_unlimited\":false}",
+    "WelcomeTipsFeaturesUsed": "[{\"Hint\":\"BlockSelect\"},{\"Hint\":\"BlockAction\"},{\"Hint\":\"CreateBlock\"}]",
+    "TelemetryEnabled": "true",
+    "ExperimentId": "02af033d-0cca-468f-aedd-e17b23f4e0ac",
+    "CrashReportingEnabled": "true",
+    "ReceivedReferralTheme": "\"Inactive\"",
+    "ApplePressAndHoldEnabled": "false",
+    "HasAutoOpenedWelcomeFolder": "true",
+    "SameLinePromptBlockState": "\"DoNotShow\"",
+    "AgentModeOnboardingBlockShown": "true"
+  },
+  "diagnostics_agent": {
+    "lastSuccess": 752596645.63724601
+  },
+  "group.com.apple.photolibraryd.private": {},
+  "jetbrains.jetprofile.asset": {
+    "/jetbrains/jetprofile/asset/": {
+      "pc/": {
+        "stamp": "1731060751492",
+        "period": "11369201"
+      },
+      "pcwmp/": {
+        "stamp": "1731063950959",
+        "period": "15190703"
+      }
+    }
+  },
+  "loginwindow": {
+    "BuildVersionStampAsString": "24A348",
+    "SystemVersionStampAsNumber": 251658496,
+    "SystemVersionStampAsString": "15.0.1",
+    "BuildVersionStampAsNumber": 50342784
+  },
+  "mbuseragent": {
+    "CKPerBootTasks": [
+      "CKAccountInfoCacheReset"
+    ],
+    "CKStartupTime": 1730902691
+  },
+  "pbs": {
+    "FinderOrdering": {
+      "APPEXTENSION-com.apple.finder.CreatePDFQuickAction": 3,
+      "is.workflow.actions.image.removebackground": 5,
+      "APPEXTENSION-com.apple.finder.MarkupQuickAction": 1,
+      "APPEXTENSION-com.apple.finder.RotateQuickAction": 0,
+      "APPEXTENSION-com.apple.finder.TrimQuickAction": 2,
+      "is.workflow.actions.image.convert.finder": 4
+    },
+    "ServicesShortcutsPresent": false,
+    "FinderActive": {
+      "APPEXTENSION-com.apple.finder.CreatePDFQuickAction": true,
+      "is.workflow.actions.image.removebackground": true,
+      "APPEXTENSION-com.apple.finder.MarkupQuickAction": true,
+      "APPEXTENSION-com.apple.finder.RotateQuickAction": true,
+      "APPEXTENSION-com.apple.finder.TrimQuickAction": true,
+      "is.workflow.actions.image.convert.finder": true
+    }
+  },
+  "sharedfilelistd": {
+    "fixupDesktopAndDocumentsCompleted": true,
+    "fixupFileProviderVolumeGroupsV2Completed": true
+  }
+}
