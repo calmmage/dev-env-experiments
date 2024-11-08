@@ -9,4 +9,7 @@ nix flake update
 echo "🛠 Rebuilding system..."
 darwin-rebuild switch --flake .#Petrs-MacBook-Pro
 
+echo "🔧 Running post-install script..."
+./post-install.sh
+
 echo "✅ System rebuild complete!"

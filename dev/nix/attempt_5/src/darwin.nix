@@ -11,8 +11,10 @@
         cleanup = "zap"; # Removes all unmanaged packages
       };
       brews = [
-        "poetry"
         # CLI tools through homebrew if needed
+        "poetry"
+        "gh"
+        "ripgrep"
       ];
       casks = [
         "slack"
@@ -25,6 +27,9 @@
         "docker"
         "bartender"
         "rectangle"
+        "obsidian"
+        "notion"
+        "chatgpt"
       ];
     };
 
