@@ -36,9 +36,14 @@
       };
       dock = {
         autohide = true;
-        largesize = 64;
+        largesize = 128;
+        magnification = true;
       };
     };
+    activationScripts.postActivation.text = ''
+      # Allow Karabiner-Elements to receive keyboard events
+      /usr/bin/sudo /usr/bin/security authorizationdb write system.privilege.taskport allow
+    '';
   };
   networking = {
     # computerName = "mbpr1619";
@@ -79,7 +84,10 @@
       "sourcetree"
       "warp"
       "mitmproxy"
-
+      "cursor"
+      "shottr"
+      "karabiner-elements"
+      
       # Browsers & Communication
       "google-chrome"
       "slack"

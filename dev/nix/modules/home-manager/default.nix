@@ -11,7 +11,7 @@
     direnv
     oh-my-zsh
     docker
-    colima
+    # colima
     zsh-powerlevel10k
     nixfmt-classic
     awscli2
@@ -35,8 +35,9 @@
 
   home.sessionVariables = {
     PAGER = "less";
-    CLICLOLOR = 1;
-    EDITOR = "nvim";
+    CLICOLOR = 1;
+    EDITOR = "subl";
+    PATH = "$PATH:$HOME/bin";
   };
 
   programs = {
@@ -86,16 +87,26 @@
       enableCompletion = true;
       autosuggestion.enable = true;
       syntaxHighlighting.enable = true;
+
       plugins = [{
         name = "powerlevel10k";
         src = pkgs.zsh-powerlevel10k;
         file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
       }];
-      initExtraFirst = "source ~/.p10k.zsh";
+      
+      # Combined initExtra
       initExtra = ''
-        export DOCKER_HOST='unix://'$HOME'/.colima/default/docker.sock'
+        # Any custom zsh code goes here
+        source ~/.p10k.zsh
+        # export DOCKER_HOST='unix://'$HOME'/.colima/default/docker.sock'
+        source ~/.zsh-custom-functions
       '';
+
       shellAliases = {
+        ll = "ls -la";
+        g = "git";
+        dc = "docker-compose";
+        # Add your aliases here
         ls = "ls --color=auto -F";
         nixswitch = "darwin-rebuild switch --flake ~/src/system-config/.#";
         nixup = "pushd ~/src/system-config; nix flake update; nixswitch; popd";
@@ -109,4 +120,11 @@
     direnv = { enable = true; };
   };
   home.file.".inputrc".source = ./dotfiles/inputrc;
+  home.file.".zsh-custom-functions" = {
+    text = ''
+      function my_custom_function() {
+        # function code here
+      }
+    '';
+  };
 }
