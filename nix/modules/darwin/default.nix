@@ -101,18 +101,26 @@
       
       # Browsers & Communication
       "google-chrome"
-      "slack"
+      # "slack" # installed through nix
       "telegram"
 
       # Productivity & Utils
       "raycast"
       "rectangle"
-      "bartender"
+      # "bartender" # through setapp
       "dropbox"
-      "setapp"
       "obsidian"
       "notion"
       "chatgpt"
+
+      # App marketplace
+      "setapp"
+      # todo: install apps manually
+      # paste
+      # cleanshotX
+      # bartender
+      # popclip
+      # hazeover
 
       # Creative
       "adobe-creative-cloud"
