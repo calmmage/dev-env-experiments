@@ -71,7 +71,6 @@
     masApps = { };
     brews = [
       "poetry"
-      "gh"
       "ripgrep"
       "sonar-scanner"
     ];
@@ -82,6 +81,8 @@
       "jetbrains-toolbox"
       "pycharm"
       "sourcetree"
+      "github"
+      "launchcontrol"
       "warp"
       "mitmproxy"
       "cursor"

@@ -1,0 +1,64 @@
+1981c1981
+<     "telemetry.lastTimestamp": 752630400
+---
+>     "telemetry.lastTimestamp": 752716800
+2366a2367
+>   "com.apple.preferences.extensions.ShareMenu": {},
+2460,2461c2461,2462
+<               "id64": 1,
+<               "ManagedSpaceID": 1,
+---
+>               "id64": 107,
+>               "ManagedSpaceID": 107,
+2463c2464
+<               "uuid": ""
+---
+>               "uuid": "F3145B3D-05F7-4677-8DB2-89A61E5A46CD"
+2488c2489
+<         "Age": 40181.145247333348,
+---
+>         "Age": 42837.209504833343,
+2513a2515
+>             101,
+2515,2521d2516
+<             8367,
+<             8369,
+<             8365,
+<             5687,
+<             8035,
+<             8026,
+<             6151,
+2522a2518,2520
+>             745,
+>             7258,
+>             6151,
+2525,2526c2523,2527
+<             6925,
+<             7258,
+---
+>             8117,
+>             8035,
+>             8026,
+>             5687,
+>             8365,
+2528d2528
+<             5677,
+2531d2530
+<             101,
+2538a2538
+>             7643,
+2539a2540
+>             8572,
+2541,2542d2541
+<             7643,
+<             5711,
+2889c2888
+<     "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-11-10T00:34:29.440073Z\",\"is_unlimited\":false}",
+---
+>     "AIRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":1,\"next_refresh_time\":\"2024-11-10T00:34:29.440073Z\",\"is_unlimited\":false}",
+2893c2892
+<     "CrashReportingEnabled": "true",
+---
+>     "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-11-10T00:34:29.440073Z\",\"is_unlimited\":false}",
+2895a2895
+>     "CrashReportingEnabled": "true",

@@ -1,0 +1,82 @@
+{
+  "com.apple.mlhost": {
+    "telemetry.lastTimestamp": {
+      "old": 752630400,
+      "new": 752716800
+    }
+  },
+  "com.apple.spaces": {
+    "SpacesDisplayConfiguration": {
+      "Management Data": {
+        "Monitors": {
+          "added": [],
+          "removed": [],
+          "changed": [
+            {
+              "Current Space": {
+                "id64": {
+                  "old": 1,
+                  "new": 107
+                },
+                "ManagedSpaceID": {
+                  "old": 1,
+                  "new": 107
+                },
+                "uuid": {
+                  "old": "",
+                  "new": "F3145B3D-05F7-4677-8DB2-89A61E5A46CD"
+                }
+              }
+            }
+          ]
+        },
+        "Age": {
+          "old": 40181.14524733335,
+          "new": 42837.20950483334
+        }
+      },
+      "Space Properties": {
+        "added": [],
+        "removed": [],
+        "changed": [
+          {
+            "windows": {
+              "added": [
+                745,
+                8117
+              ],
+              "removed": [
+                8367,
+                8369,
+                6925,
+                5677
+              ],
+              "changed": []
+            }
+          },
+          {
+            "windows": {
+              "added": [
+                8572
+              ],
+              "removed": [
+                5711
+              ],
+              "changed": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "dev.warp.Warp-Stable": {
+    "AIRequestLimitInfo": {
+      "old": null,
+      "new": "{\"limit\":100,\"num_requests_used_since_refresh\":1,\"next_refresh_time\":\"2024-11-10T00:34:29.440073Z\",\"is_unlimited\":false}"
+    }
+  },
+  "com.apple.preferences.extensions.ShareMenu": {
+    "old": null,
+    "new": {}
+  }
+}

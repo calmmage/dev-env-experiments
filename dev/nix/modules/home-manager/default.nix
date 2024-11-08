@@ -11,7 +11,7 @@
     direnv
     oh-my-zsh
     docker
-    # colima
+    gh  # Adding GitHub CLI via Nix
     zsh-powerlevel10k
     nixfmt-classic
     awscli2
