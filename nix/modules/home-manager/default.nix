@@ -143,9 +143,20 @@
   #   '';
   # };
 
-  # Add dock configuration
-  home.activation.dock = lib.hm.dag.entryAfter ["writeBoundary"] ''
-    # Configure dock apps
-    ${pkgs.dockutil}/bin/dockutil --add "/Applications/Raycast.app" --no-restart
-  '';
+  home.activation = {
+    setDefaults = lib.hm.dag.entryAfter ["writeBoundary"] ''
+      # Window Manager settings
+      defaults write com.apple.WindowManager EnableTopTilingByEdgeDrag -bool false
+      defaults write com.apple.WindowManager EnableTilingByEdgeDrag -bool false
+      defaults write com.apple.WindowManager EnableTilingOptionAccelerator -bool false
+            
+      # Dock settings
+      defaults write com.apple.dock expose-group-by-app -bool true
+
+    '';
+    dock = lib.hm.dag.entryAfter ["writeBoundary"] ''
+      # Configure dock apps
+      ${pkgs.dockutil}/bin/dockutil --add "/Applications/Raycast.app" --no-restart
+    '';
+  };
 }
