@@ -88,6 +88,7 @@
       "cursor"
       "shottr"
       "karabiner-elements"
+      "sublime-text"
       
       # Browsers & Communication
       "google-chrome"

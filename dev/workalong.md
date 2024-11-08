@@ -72,6 +72,10 @@ e) Configure manually
 		- [x] basic settings
 		- [ ] iterate
 	- [ ] license
+- rectangle
+	- [x] shortcuts
+	- [x] settings (border, auto-start at login)
+
 
 # Workalong
 Here I select specific things and do them

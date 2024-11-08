@@ -4,7 +4,6 @@ alias subl='open -a Sublime\ Text'
 # open dir with vscode
 alias code='open -a Visual\ Studio\ Code'
 
-
 # alias ghc="gh copilot"
 # Explain with github CLI copilot
 alias aie="gh copilot explain"

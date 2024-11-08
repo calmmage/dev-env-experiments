@@ -144,7 +144,7 @@ change_dir_regexp() {
 }
 
 copy_absolute_path() {
-    local abs_path="$(readlink -f "$1")"
+    local abs_path="$(readlink -f "${1:-.}")"
     echo "$abs_path" | pbcopy
     echo "Copied: $abs_path"
 }
