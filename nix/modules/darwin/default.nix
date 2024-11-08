@@ -1,4 +1,8 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+let
+  username = "petr";
+in
+{
   # here go the darwin preferences and config items
   programs.zsh.enable = true;
   environment = {
@@ -9,7 +13,7 @@
     pathsToLink = [ "/Applications" ];
   };
   nix = {
-    settings = { trusted-users = [ "root" "petr"]; };
+    settings = { trusted-users = [ "root" "${username}" ]; };
     extraOptions = ''
       experimental-features = nix-command flakes
     '';
@@ -47,6 +51,13 @@
     activationScripts.postActivation.text = ''
       # Allow Karabiner-Elements to receive keyboard events
       /usr/bin/sudo /usr/bin/security authorizationdb write system.privilege.taskport allow
+      
+      # Ensure Homebrew directories have correct permissions
+      if [ -d "/opt/homebrew" ]; then
+        echo "Setting proper permissions for Homebrew directories..."
+        /usr/bin/sudo /bin/chmod -R 755 /opt/homebrew
+        /usr/bin/sudo /usr/sbin/chown -R ${username}:admin /opt/homebrew
+      fi
     '';
   };
   networking = {
@@ -81,22 +92,22 @@
 
     casks = [
       # Development
-      "docker"
+      "docker" # docker desktop app
       "jetbrains-toolbox"
       "pycharm"
       "sourcetree"
-      "github"
+      "github" # github desktop app
       "launchcontrol"
       "warp"
       "mitmproxy"
       "cursor"
-      "shottr"
+      # "shottr" # Alternative: CleanShot X - installed through setapp
       "karabiner-elements"
       "sublime-text"
       
       # Browsers & Communication
       "google-chrome"
-      # "slack" # installed through nix
+      "slack" 
       "telegram"
 
       # Productivity & Utils

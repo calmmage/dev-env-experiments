@@ -1,5 +1,15 @@
 { pkgs, lib, ... }:
 
+let
+  dockApps = [
+    "/Applications/Raycast.app"
+    # Add more applications here, for example:
+    # "/Applications/Firefox.app"
+    # "/System/Applications/Messages.app"
+    "/Applications/Slack.app"
+    # "/Applications/Visual Studio Code.app"
+  ];
+in
 {
   # Don't change this when you change package input. Leave it alone.
   home.stateVersion = "23.11";
@@ -7,10 +17,10 @@
   home.packages = with pkgs; [
     curl
     less
-    slack
+    # slack # via brew
     direnv
     oh-my-zsh
-    docker
+    docker # cli docker 
     gh  # Adding GitHub CLI via Nix
     zsh-powerlevel10k
     nixfmt-classic
@@ -29,8 +39,10 @@
     devcontainer
     tree
     age
-    cmake  # Add CMake
+    cmake  
     dlib   # Add dlib
+    # poetry # via brew
+    # ripgrep # via brew
   ];
 
   home.sessionVariables = {
@@ -146,17 +158,27 @@
   home.activation = {
     setDefaults = lib.hm.dag.entryAfter ["writeBoundary"] ''
       # Window Manager settings
-      defaults write com.apple.WindowManager EnableTopTilingByEdgeDrag -bool false
-      defaults write com.apple.WindowManager EnableTilingByEdgeDrag -bool false
-      defaults write com.apple.WindowManager EnableTilingOptionAccelerator -bool false
+      /usr/bin/defaults write com.apple.WindowManager EnableTopTilingByEdgeDrag -bool false
+      /usr/bin/defaults write com.apple.WindowManager EnableTilingByEdgeDrag -bool false
+      /usr/bin/defaults write com.apple.WindowManager EnableTilingOptionAccelerator -bool false
             
       # Dock settings
-      defaults write com.apple.dock expose-group-by-app -bool true
-
+      /usr/bin/defaults write com.apple.dock expose-group-by-app -bool true
     '';
     dock = lib.hm.dag.entryAfter ["writeBoundary"] ''
-      # Configure dock apps
-      ${pkgs.dockutil}/bin/dockutil --add "/Applications/Raycast.app" --no-restart
+      # Remove all apps from dock first
+      ${pkgs.dockutil}/bin/dockutil --remove all \
+        --no-restart \
+        "$HOME/Library/Preferences/com.apple.dock.plist"
+
+      # Add apps from our list
+      ${lib.concatMapStringsSep "\n" (app: ''
+        ${pkgs.dockutil}/bin/dockutil --add "${app}" \
+          "$HOME/Library/Preferences/com.apple.dock.plist"
+      '') dockApps}
+
+      # Restart dock to apply changes
+      /usr/bin/killall Dock
     '';
   };
 }
