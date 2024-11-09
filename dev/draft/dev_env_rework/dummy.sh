@@ -7,7 +7,8 @@ source ~/.zprofile
 script_path ="$CALMMAGE_DEV_ENV_PATH/dev/draft/dev_env_rework/sample_script.py"
 echo "script_path: $script_path"
 # assume runp alias is defined
-runp $script_path
+# runp $script_path
+python $script_path
 
 # todo: try to run this in launchd
 # todo: try to run this in raycast

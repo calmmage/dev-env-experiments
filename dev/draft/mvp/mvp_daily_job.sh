@@ -8,6 +8,6 @@ source ~/.zprofile
 script_path ="$CALMMAGE_DEV_ENV_PATHdev/draft/mvp/daily_job.py"
 # echo "script_path: $script_path"
 # assume runp alias is defined - source from zprofile
-runp $script_path
-
+# runp $script_path
+python $script_path
 
