@@ -1,0 +1,70 @@
+AlDente.app
+Amazon Kindle.app
+Amphetamine.app
+Arc.app
+Bartender 5.app
+Blender.app
+Calendars.app
+ChatGPT.app
+CurseForge.app
+Cursor.app
+CyberGhost VPN.app
+DBeaver.app
+Developer.app
+Discolored.app
+Discord.app
+Docker.app
+Dropover.app
+Dynamic Wallpaper.app
+Endel.app
+Epic Games Launcher.app
+Flow.app
+GarageBand.app
+Gibbon.app
+GitHub Desktop.app
+Google Chrome.app
+Google Docs.app
+Google Drive.app
+Google Sheets.app
+Google Slides.app
+GrandPerspective.app
+HP Smart.app
+Hand Mirror.app
+JetBrains Toolbox.app
+Keynote.app
+LastPass.app
+LaunchControl.app
+Minecraft.app
+MongoDB Compass.app
+Motion.app
+Notion.app
+Numbers.app
+OBS.app
+Obsidian.app
+Pages.app
+Parallels Desktop.app
+Paste.app
+Raycast.app
+Rectangle.app
+RemNote.app
+Safari.app
+Shottr.app
+Slack.app
+Steam.app
+Structured.app
+Sublime Text.app
+Telegram Lite.app
+Telegram.app
+Telegram.localized
+Unity
+Unity Hub.app
+Utilities
+Visual Studio Code.app
+Visual Studio.app
+Wakeout.app
+Warp.app
+WhatsApp.app
+Xcode.app
+Zed.app
+iMovie.app
+zoom.us.app
